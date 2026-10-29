@@ -1,0 +1,306 @@
+# gods-eye-view — mapa plików (1/5)
+
+Wykaz śledzonych plików z badanego commita. Liczba wierszy i nazwy deklaracji są wyciągane automatycznie z dostępnej kopii tekstowej; nie oznaczają ręcznej oceny pliku. Brak opisu oznacza, że zawartość nie była analizowana tą metodą (np. plik binarny, zasób lub pominięty plik).
+
+[Wróć do audytu](AUDYT_EDUKACYJNY.md) · [1](AUDYT_MAPA_01.md) · [2](AUDYT_MAPA_02.md) · [3](AUDYT_MAPA_03.md) · [4](AUDYT_MAPA_04.md) · [5](AUDYT_MAPA_05.md)
+
+- [.agents/skills/community-pr/SKILL.md](.agents/skills/community-pr/SKILL.md) — 53 wierszy
+- [.env.example](.env.example)
+- [.git-blame-ignore-revs](.git-blame-ignore-revs)
+- [.gitattributes](.gitattributes)
+- [.github/CODEOWNERS](.github/CODEOWNERS)
+- [.github/ISSUE_TEMPLATE/bug_report.yml](.github/ISSUE_TEMPLATE/bug_report.yml) — 69 wierszy
+- [.github/ISSUE_TEMPLATE/config.yml](.github/ISSUE_TEMPLATE/config.yml) — 11 wierszy
+- [.github/ISSUE_TEMPLATE/feature_request.yml](.github/ISSUE_TEMPLATE/feature_request.yml) — 39 wierszy
+- [.github/workflows/ci.yml](.github/workflows/ci.yml) — 89 wierszy
+- [.gitignore](.gitignore)
+- [.prettierignore](.prettierignore)
+- [.prettierrc.json](.prettierrc.json) — 6 wierszy
+- [CHANGELOG.md](CHANGELOG.md) — 988 wierszy
+- [CONTRIBUTING.md](CONTRIBUTING.md) — 102 wierszy
+- [DATA_SOURCES.md](DATA_SOURCES.md) — 194 wierszy
+- [LICENSE](LICENSE)
+- [README.md](README.md) — 521 wierszy
+- [SECURITY.md](SECURITY.md) — 99 wierszy
+- [TESTING.md](TESTING.md) — 244 wierszy
+- [build/application-html.js](build/application-html.js)
+- [build/vite.js](build/vite.js)
+- [config/cctv_sources.austin.json](config/cctv_sources.austin.json) — 1 wierszy
+- [config/cctv_sources.shinjuku.json](config/cctv_sources.shinjuku.json) — 59 wierszy
+- [config/cctv_sources.tallinn.json](config/cctv_sources.tallinn.json) — 5562 wierszy
+- [config/cctv_sources.warendorf.json](config/cctv_sources.warendorf.json) — 23 wierszy
+- [docs/APPLICATION.md](docs/APPLICATION.md) — 198 wierszy
+- [docs/CODE-BOUNDARIES.md](docs/CODE-BOUNDARIES.md) — 644 wierszy; deklaracje: `normalization:69`, `reconciliation:539`
+- [docs/CURRENT-STATE.md](docs/CURRENT-STATE.md) — 3925 wierszy
+- [docs/DIRECTOR-CAMERA.md](docs/DIRECTOR-CAMERA.md) — 110 wierszy
+- [docs/DIRECTOR-DATA-PACKS.md](docs/DIRECTOR-DATA-PACKS.md) — 115 wierszy
+- [docs/DIRECTOR-INTERACTIONS.md](docs/DIRECTOR-INTERACTIONS.md) — 66 wierszy
+- [docs/DIRECTOR-SHARING.md](docs/DIRECTOR-SHARING.md) — 96 wierszy
+- [docs/DIRECTOR.md](docs/DIRECTOR.md) — 108 wierszy
+- [docs/INFRASTRUCTURE-LAYERS.md](docs/INFRASTRUCTURE-LAYERS.md) — 62 wierszy
+- [docs/KNOWN-ISSUES.md](docs/KNOWN-ISSUES.md) — 122 wierszy
+- [docs/MAINTAINER_WORKFLOW.md](docs/MAINTAINER_WORKFLOW.md) — 202 wierszy; deklaracje: `them:138`
+- [docs/PERFORMANCE.md](docs/PERFORMANCE.md) — 144 wierszy
+- [docs/SCENE-DOCUMENT.md](docs/SCENE-DOCUMENT.md) — 105 wierszy
+- [docs/UI-OWNERSHIP.md](docs/UI-OWNERSHIP.md) — 35 wierszy
+- [docs/VOICE-OWNERSHIP.md](docs/VOICE-OWNERSHIP.md) — 48 wierszy
+- [docs/media/01-style-sweep.gif](docs/media/01-style-sweep.gif)
+- [docs/media/01-voice-annotate-zilker.gif](docs/media/01-voice-annotate-zilker.gif)
+- [docs/media/03-austin-cctv.gif](docs/media/03-austin-cctv.gif)
+- [docs/media/04-airport-distance.gif](docs/media/04-airport-distance.gif)
+- [docs/media/05-traffic-to-cctv.gif](docs/media/05-traffic-to-cctv.gif)
+- [docs/media/06-cockpit-ar.gif](docs/media/06-cockpit-ar.gif)
+- [docs/media/07-helicopter-loops.gif](docs/media/07-helicopter-loops.gif)
+- [docs/media/08-boneyard.gif](docs/media/08-boneyard.gif)
+- [docs/media/08-falcon9-replay.gif](docs/media/08-falcon9-replay.gif)
+- [docs/media/09-undersea-cables.gif](docs/media/09-undersea-cables.gif)
+- [docs/media/10-walking-route-flythrough.gif](docs/media/10-walking-route-flythrough.gif)
+- [docs/media/12-switch-aircraft-cockpit.gif](docs/media/12-switch-aircraft-cockpit.gif)
+- [docs/media/14-iss-over-ukraine.gif](docs/media/14-iss-over-ukraine.gif)
+- [docs/media/15-global-radio-layer.gif](docs/media/15-global-radio-layer.gif)
+- [docs/media/README.md](docs/media/README.md) — 40 wierszy
+- [docs/media/hero-open-source-reveal.gif](docs/media/hero-open-source-reveal.gif)
+- [docs/media/open-source-survey.png](docs/media/open-source-survey.png)
+- [docs/media/start-here/airport-ground-traffic-google-3d.gif](docs/media/start-here/airport-ground-traffic-google-3d.gif)
+- [docs/media/start-here/military-cockpit-dense-google-3d.gif](docs/media/start-here/military-cockpit-dense-google-3d.gif)
+- [docs/media/youtube-popular-videos.png](docs/media/youtube-popular-videos.png)
+- [docs/opensky-auth.md](docs/opensky-auth.md) — 66 wierszy
+- [index.html](index.html) — 39 wierszy
+- [package-lock.json](package-lock.json) — 2875 wierszy
+- [package.json](package.json) — 246 wierszy
+- [pinokio/_ENVIRONMENT](pinokio/_ENVIRONMENT)
+- [pinokio/install.js](pinokio/install.js) — 36 wierszy
+- [pinokio/package.json](pinokio/package.json) — 3 wierszy
+- [pinokio/pinokio.js](pinokio/pinokio.js) — 39 wierszy
+- [pinokio/reset.js](pinokio/reset.js) — 11 wierszy
+- [pinokio/start.js](pinokio/start.js) — 43 wierszy
+- [pinokio/update.js](pinokio/update.js) — 27 wierszy
+- [public/events/bhote-koshi-2026/README.md](public/events/bhote-koshi-2026/README.md) — 55 wierszy
+- [public/events/bhote-koshi-2026/event.json](public/events/bhote-koshi-2026/event.json) — 1633 wierszy
+- [public/events/bhote-koshi-2026/post.webp](public/events/bhote-koshi-2026/post.webp)
+- [public/events/bhote-koshi-2026/pre.webp](public/events/bhote-koshi-2026/pre.webp)
+- [public/location.svg](public/location.svg)
+- [public/logo.svg](public/logo.svg)
+- [public/mic.svg](public/mic.svg)
+- [public/models/README.md](public/models/README.md) — 21 wierszy
+- [public/models/airplane.glb](public/models/airplane.glb)
+- [public/models/atr72.glb](public/models/atr72.glb)
+- [public/models/b789.glb](public/models/b789.glb)
+- [public/models/bell206.glb](public/models/bell206.glb)
+- [public/models/c172.glb](public/models/c172.glb)
+- [public/models/citation2.glb](public/models/citation2.glb)
+- [public/models/jet.glb](public/models/jet.glb)
+- [public/models/mq9.glb](public/models/mq9.glb)
+- [public/models/ship.glb](public/models/ship.glb)
+- [public/pin.svg](public/pin.svg)
+- [public/visual-presets.svg](public/visual-presets.svg)
+- [scripts/build-sf-neighborhoods.mjs](scripts/build-sf-neighborhoods.mjs) — 145 wierszy; deklaracje: `segDist:39`, `douglasPeucker:51`, `processRing:74`, `main:91`
+- [scripts/check-import-directions.mjs](scripts/check-import-directions.mjs) — 257 wierszy; deklaracje: `checkImportDirections:46`, `load:75`, `browser:167`, `visit:196`, `voice:227`
+- [scripts/check-package-boundaries.mjs](scripts/check-package-boundaries.mjs) — 146 wierszy; deklaracje: `checkPackageBoundaries:7`
+- [scripts/dev-cctv.sh](scripts/dev-cctv.sh)
+- [scripts/dev-fresh.sh](scripts/dev-fresh.sh)
+- [scripts/dev-secure.sh](scripts/dev-secure.sh)
+- [scripts/fixtures/voice/README.md](scripts/fixtures/voice/README.md) — 7 wierszy
+- [scripts/fixtures/voice/full-globe-turn-on-radio.wav](scripts/fixtures/voice/full-globe-turn-on-radio.wav)
+- [scripts/focus-allocation-check.mjs](scripts/focus-allocation-check.mjs) — 139 wierszy; deklaracje: `median:20`, `bytesPerCall:25`, `netOfLoopBaseline:42`
+- [scripts/format-runtime.json](scripts/format-runtime.json) — 3 wierszy
+- [scripts/format-scope.json](scripts/format-scope.json) — 747 wierszy
+- [scripts/format.mjs](scripts/format.mjs) — 154 wierszy; deklaracje: `discoverRuntimeFormatFiles:9`, `formatAdoptedFiles:56`
+- [scripts/google-server-key.mjs](scripts/google-server-key.mjs) — 5 wierszy; deklaracje: `resolveGoogleServerKey:2`
+- [scripts/module-analysis.mjs](scripts/module-analysis.mjs) — 80 wierszy; deklaracje: `analyzeModule:19`, `walk:22`, `moduleImports:78`
+- [scripts/opensky-import-client.sh](scripts/opensky-import-client.sh)
+- [scripts/package-boundaries.json](scripts/package-boundaries.json) — 2698 wierszy
+- [scripts/pinokio-environment.mjs](scripts/pinokio-environment.mjs) — 141 wierszy; deklaracje: `appendEnvironmentLine:42`, `detectEnvironmentEncoding:47`, `readEnvironmentSource:65`, `ensurePinokioSharingBoundary:76`, `readPinokioEnvironment:114`
+- [scripts/pinokio-install.mjs](scripts/pinokio-install.mjs) — 64 wierszy; deklaracje: `runChecked:13`, `installPinokioDependencies:24`, `isDirectInvocation:49`
+- [scripts/pinokio-preflight.mjs](scripts/pinokio-preflight.mjs) — 36 wierszy; deklaracje: `isPinokioShareEnabled:5`, `validatePinokioSharing:9`, `run:23`
+- [scripts/pinokio-reset.mjs](scripts/pinokio-reset.mjs) — 10 wierszy
+- [scripts/pinokio-start.mjs](scripts/pinokio-start.mjs) — 67 wierszy; deklaracje: `launchPort:12`, `loadViteFromCanonicalRoot:20`, `start:28`
+- [scripts/pinokio-update.mjs](scripts/pinokio-update.mjs) — 239 wierszy; deklaracje: `readGit:39`, `redactRemoteUrl:61`, `reportIncomingChanges:99`, `updateFromRemote:202`, `runPinokioUpdate:218`
+- [scripts/precompute-cctv-heights.mjs](scripts/precompute-cctv-heights.mjs) — 487 wierszy; deklaracje: `nominalPose:16`, `cellKey:42`, `batches:59`, `planCells:69`, `plausibleHeight:84`
+- [scripts/project-root.mjs](scripts/project-root.mjs) — 10 wierszy; deklaracje: `projectRoot:5`
+- [scripts/qa-application.mjs](scripts/qa-application.mjs) — 116 wierszy
+- [scripts/qa-attribution-b12.mjs](scripts/qa-attribution-b12.mjs) — 406 wierszy; deklaracje: `getOpt:26`, `findChromeExecutable:43`, `check:51`, `main:72`
+- [scripts/qa-cables-overlay.mjs](scripts/qa-cables-overlay.mjs) — 238 wierszy; deklaracje: `check:33`, `report:38`
+- [scripts/qa-cables-render-probe.mjs](scripts/qa-cables-render-probe.mjs) — 116 wierszy
+- [scripts/qa-cables-shot.mjs](scripts/qa-cables-shot.mjs) — 74 wierszy
+- [scripts/qa-camera-controls.mjs](scripts/qa-camera-controls.mjs) — 413 wierszy
+- [scripts/qa-cctv-v2.mjs](scripts/qa-cctv-v2.mjs) — 1999 wierszy; deklaracje: `findChromeExecutable:117`, `record:129`, `positionPointerForGizmoDrag:146`, `serializeGeom:190`, `bearingShiftDeg:232`
+- [scripts/qa-cockpit-plates.mjs](scripts/qa-cockpit-plates.mjs) — 557 wierszy; deklaracje: `record:147`, `installPaintTap:163`, `main:200`
+- [scripts/qa-cockpit-utility.mjs](scripts/qa-cockpit-utility.mjs) — 2253 wierszy
+- [scripts/qa-directions.mjs](scripts/qa-directions.mjs) — 842 wierszy; deklaracje: `lookAt:64`, `placeEndpoints:198`
+- [scripts/qa-director-camera.mjs](scripts/qa-director-camera.mjs) — 210 wierszy; deklaracje: `check:16`
+- [scripts/qa-director-interactions.mjs](scripts/qa-director-interactions.mjs) — 364 wierszy
+- [scripts/qa-director-packs.mjs](scripts/qa-director-packs.mjs) — 359 wierszy
+- [scripts/qa-director-sharing.mjs](scripts/qa-director-sharing.mjs) — 482 wierszy; deklaracje: `click:86`, `value:97`
+- [scripts/qa-director-timing.mjs](scripts/qa-director-timing.mjs) — 137 wierszy; deklaracje: `check:16`
+- [scripts/qa-draw-tool.mjs](scripts/qa-draw-tool.mjs) — 876 wierszy; deklaracje: `check:43`, `amberPixels:69`, `pressFinish:102`, `clickWorld:108`, `waitForMarks:136`
+- [scripts/qa-enrich-ambient.mjs](scripts/qa-enrich-ambient.mjs) — 582 wierszy; deklaracje: `findChromeExecutable:102`, `record:110`, `sleep:115`, `main:165`, `finish:569`
+- [scripts/qa-failstate-b10.mjs](scripts/qa-failstate-b10.mjs) — 570 wierszy; deklaracje: `withDetectDebug:57`, `findChromeExecutable:79`, `record:89`, `readLayerControl:97`, `captureLayerControl:120`
+- [scripts/qa-firms.mjs](scripts/qa-firms.mjs) — 521 wierszy; deklaracje: `findChromeExecutable:64`, `record:72`, `cardCanvasInk:80`, `waitForCardCanvasInk:110`, `firmsActionSnapshot:131`
+- [scripts/qa-firstrun-mutations.mjs](scripts/qa-firstrun-mutations.mjs) — 521 wierszy
+- [scripts/qa-firstrun.mjs](scripts/qa-firstrun.mjs) — 902 wierszy; deklaracje: `record:47`, `section:62`, `open:83`, `watchLoadingChip:149`, `pick:173`
+- [scripts/qa-floor-hold.mjs](scripts/qa-floor-hold.mjs) — 274 wierszy; deklaracje: `record:55`, `demTruth:199`, `sample:215`
+- [scripts/qa-floor-verify.mjs](scripts/qa-floor-verify.mjs) — 163 wierszy
+- [scripts/qa-floorhold-mutations.mjs](scripts/qa-floorhold-mutations.mjs) — 322 wierszy; deklaracje: `runTests:267`
+- [scripts/qa-floorhold-probe-cost.mjs](scripts/qa-floorhold-probe-cost.mjs) — 62 wierszy
+- [scripts/qa-floorhold-staircase.mjs](scripts/qa-floorhold-staircase.mjs) — 145 wierszy
+- [scripts/qa-flyroute-cinema.mjs](scripts/qa-flyroute-cinema.mjs) — 605 wierszy; deklaracje: `installSampler:100`, `readTrace:136`, `sampleDistanceM:144`
+- [scripts/qa-flyroute-mutations.mjs](scripts/qa-flyroute-mutations.mjs) — 163 wierszy
+- [scripts/qa-focus-evidence.mjs](scripts/qa-focus-evidence.mjs) — 721 wierszy; deklaracje: `parseParams:62`, `add:99`, `scale:103`, `screenPlanePosition:107`, `shotPath:117`
+- [scripts/qa-heading-b3.mjs](scripts/qa-heading-b3.mjs) — 1115 wierszy; deklaracje: `findChromeExecutable:132`, `record:143`, `observeTrackedHostPaint:149`, `arcState:238`, `analyze:253`
+- [scripts/qa-height-datum.mjs](scripts/qa-height-datum.mjs) — 727 wierszy; deklaracje: `findChromeExecutable:124`, `record:136`, `waitForTilesLoaded:153`, `readCameraGround:181`, `fetchReearthEllipsoid:215`
+- [scripts/qa-infra-lod.mjs](scripts/qa-infra-lod.mjs) — 343 wierszy; deklaracje: `check:53`, `report:58`
+- [scripts/qa-l9-matrix.mjs](scripts/qa-l9-matrix.mjs) — 2336 wierszy; deklaracje: `getOpt:50`, `normalizeVerdict:114`, `keyGuard:149`, `requiredCreditFor:195`, `satisfiesEngines:213`
+- [scripts/qa-label-readability.mjs](scripts/qa-label-readability.mjs) — 422 wierszy; deklaracje: `findChrome:163`, `measureShot:171`, `settle:202`, `main:221`
+- [scripts/qa-labels.mjs](scripts/qa-labels.mjs) — 600 wierszy; deklaracje: `findChromeExecutable:65`, `record:77`, `percentile:83`, `parseJson:89`, `analyzeMembership:97`
+- [scripts/qa-layer-panel.mjs](scripts/qa-layer-panel.mjs) — 129 wierszy
+- [scripts/qa-location-controls.mjs](scripts/qa-location-controls.mjs) — 262 wierszy
+- [scripts/qa-map-source-controls.mjs](scripts/qa-map-source-controls.mjs) — 202 wierszy
+- [scripts/qa-map-source-tray.mjs](scripts/qa-map-source-tray.mjs) — 1662 wierszy
+- [scripts/qa-overlay-baseline.mjs](scripts/qa-overlay-baseline.mjs) — 943 wierszy; deklaracje: `getOpt:68`, `hasFlag:73`, `selectedScenes:77`, `sleep:93`, `contentType:97`
+- [scripts/qa-perf.mjs](scripts/qa-perf.mjs) — 413 wierszy; deklaracje: `check:81`
+- [scripts/qa-radio.mjs](scripts/qa-radio.mjs) — 4746 wierszy; deklaracje: `check:76`, `settleRadioFrames:86`, `main:100`
+- [scripts/qa-scene-controls.mjs](scripts/qa-scene-controls.mjs) — 448 wierszy; deklaracje: `check:26`
+- [scripts/qa-sprites-b5.mjs](scripts/qa-sprites-b5.mjs) — 578 wierszy; deklaracje: `findChromeExecutable:79`, `record:87`, `sleep:92`, `main:152`, `finish:565`
+- [scripts/qa-traffic-baseline.mjs](scripts/qa-traffic-baseline.mjs) — 477 wierszy; deklaracje: `findChromeExecutable:64`, `debugUrl:90`, `moveCamera:97`, `waitForTrafficCapture:129`, `readTrafficMeasures:151`
+- [scripts/qa-traffic-jamviz-ab.mjs](scripts/qa-traffic-jamviz-ab.mjs) — 254 wierszy; deklaracje: `waitForTilesLoaded:75`, `setView:92`, `waitForFreshRender:118`, `main:135`
+- [scripts/qa-traffic-navigation.mjs](scripts/qa-traffic-navigation.mjs) — 125 wierszy
+- [scripts/qa-traffic-preset-ab.mjs](scripts/qa-traffic-preset-ab.mjs) — 284 wierszy; deklaracje: `waitForTilesLoaded:91`, `settleTraffic:108`, `main:141`
+- [scripts/qa-traffic.mjs](scripts/qa-traffic.mjs) — 334 wierszy; deklaracje: `findChromeExecutable:66`, `record:74`, `settleTraffic:82`, `main:110`
+- [scripts/qa-transit-browser.mjs](scripts/qa-transit-browser.mjs) — 665 wierszy; deklaracje: `boundPageEvaluations:2`, `reportTransitVisibility:44`, `restoreRetainedTransit:70`, `sampleTransitPixels:117`, `readTransitFleetStyle:649`
+- [scripts/qa-transit-controls.mjs](scripts/qa-transit-controls.mjs) — 204 wierszy; deklaracje: `chooseLiveCities:45`, `selectStyle:67`, `detectOn:139`
+- [scripts/qa-transit-heading.mjs](scripts/qa-transit-heading.mjs) — 156 wierszy; deklaracje: `runTransitHeadingRegression:4`
+- [scripts/qa-transit-recovery.mjs](scripts/qa-transit-recovery.mjs) — 330 wierszy
+- [scripts/qa-transit-scenes.mjs](scripts/qa-transit-scenes.mjs) — 1049 wierszy; deklaracje: `allocationTotals:21`, `visit:27`, `runFleetBudgets:74`, `runBostonMatrix:253`, `runBostonLive:455`
+- [scripts/qa-transit.mjs](scripts/qa-transit.mjs) — 1972 wierszy; deklaracje: `sampleScreen:161`, `sampleVisible:205`
+- [scripts/qa-ui-disposal.mjs](scripts/qa-ui-disposal.mjs) — 289 wierszy; deklaracje: `check:17`
+- [scripts/qa-vessel-cards.mjs](scripts/qa-vessel-cards.mjs) — 423 wierszy; deklaracje: `isHeadfulMode:44`, `parseDataMode:57`, `vesselCardScreenshotFilename:67`, `vesselCardManifestFilename:74`, `isHardwareRenderer:82`
+- [scripts/qa-vessel-datum.mjs](scripts/qa-vessel-datum.mjs) — 282 wierszy; deklaracje: `findChromeExecutable:70`, `probeVessels:85`, `main:135`
+- [scripts/qa-view-target-prewarm.mjs](scripts/qa-view-target-prewarm.mjs) — 355 wierszy
+- [scripts/qa-visual-effects.mjs](scripts/qa-visual-effects.mjs) — 239 wierszy; deklaracje: `check:19`
+- [scripts/qa-visual-input.mjs](scripts/qa-visual-input.mjs) — 251 wierszy
+- [scripts/qa-voice-routing.mjs](scripts/qa-voice-routing.mjs) — 1010 wierszy; deklaracje: `getOpt:51`, `report:64`, `skipped:69`, `mintSession:188`, `RoutingSession:199`
+- [scripts/qa-voice-wav.mjs](scripts/qa-voice-wav.mjs) — 161 wierszy
+- [scripts/read-dotenv-value.mjs](scripts/read-dotenv-value.mjs) — 33 wierszy; deklaracje: `readDotenvValue:15`
+- [scripts/run-unit-tests.mjs](scripts/run-unit-tests.mjs) — 102 wierszy; deklaracje: `isCalibratedAllocationRuntime:12`, `assertNode24AllocationRuntime:17`, `discoverUnitTestFiles:25`, `buildUnitTestPlan:42`, `allocationTestArgs:56`
+- [scripts/setup-doctor.mjs](scripts/setup-doctor.mjs) — 228 wierszy; deklaracje: `isConfiguredValue:37`, `classifyNodeVersion:42`, `hasRequiredDependencies:61`, `npmProcessSpec:77`, `readDoctorDotenvValue:83`
+- [scripts/shot-sink.mjs](scripts/shot-sink.mjs) — 43 wierszy
+- [scripts/track-regression.mjs](scripts/track-regression.mjs) — 4174 wierszy; deklaracje: `findChromeExecutable:129`, `record:144`, `skip:149`, `main:199`, `finishAndExit:4092`
+- [scripts/traffic-fixtures.mjs](scripts/traffic-fixtures.mjs) — 56 wierszy; deklaracje: `trafficFixtureResponse:18`
+- [server/providers/aircraft/adsb-lol.js](server/providers/aircraft/adsb-lol.js) — 158 wierszy; deklaracje: `adsbLolProxy:17`, `cooldownFor:40`, `serve:54`
+- [server/providers/aircraft/enrichment.js](server/providers/aircraft/enrichment.js) — 147 wierszy; deklaracje: `adsbdbProxy:10`, `loadOnce:18`, `parseRoute:41`, `parseAircraft:57`, `lookup:70`
+- [server/providers/aircraft/opensky.js](server/providers/aircraft/opensky.js) — 701 wierszy; deklaracje: `openskyAdaptiveTtlMs:52`, `getOpenSkyToken:89`, `normalizeOpenSkyAuthMode:172`, `buildOpenSkyHeaders:200`, `adsbLolFallbackAnchor:228`
+- [server/providers/aircraft/tracks.js](server/providers/aircraft/tracks.js) — 128 wierszy; deklaracje: `trackBackfillProxies:15`, `cachePut:22`, `proxyJson:30`, `install:63`
+- [server/providers/cctv.js](server/providers/cctv.js) — 439 wierszy; deklaracje: `cctvProxy:35`
+- [server/providers/cctv/cap.js](server/providers/cctv/cap.js) — 82 wierszy; deklaracje: `resolveCatalogCap:12`, `allocateSourceCap:35`
+- [server/providers/cctv/catalog.js](server/providers/cctv/catalog.js) — 255 wierszy; deklaracje: `loadSourcesFromFile:95`, `loadSourcesFromEnv:120`, `createCctvCatalog:132`, `getCctvSources:150`, `refreshCctvSources:175`
+- [server/providers/cctv/constants.js](server/providers/cctv/constants.js) — 257 wierszy
+- [server/providers/cctv/groundHeights.js](server/providers/cctv/groundHeights.js) — 74 wierszy; deklaracje: `loadGroundHeights:20`, `joinGroundHeights:56`
+- [server/providers/cctv/media.js](server/providers/cctv/media.js) — 516 wierszy; deklaracje: `buildSyntheticCctvSvg:26`, `toReadable:86`, `proxyMediaResponse:107`, `watchDownstreamClose:201`, `readCappedResponseBytes:219`
+- [server/providers/cctv/normalize.js](server/providers/cctv/normalize.js) — 520 wierszy; deklaracje: `hashSeed:15`, `escapeXml:30`, `toFiniteNumber:46`, `normalizeKey:57`, `parsePointString:73`
+- [server/providers/cctv/range.js](server/providers/cctv/range.js) — 81 wierszy; deklaracje: `sanitizeCctvRangeHeader:42`
+- [server/providers/cctv/sources.js](server/providers/cctv/sources.js) — 1596 wierszy; deklaracje: `loadAustinSourcesFromOpenData:92`, `loadCaltransSourcesFromOpenData:196`, `loadTflSourcesFromOpenData:316`, `isLikelyOntarioCoordinate:400`, `normalizeOntarioCctvUrl:411`
+- [server/providers/common/geo.js](server/providers/common/geo.js) — 18 wierszy; deklaracje: `haversineKm:10`
+- [server/providers/common/http.js](server/providers/common/http.js) — 53 wierszy; deklaracje: `readCappedResponseText:17`
+- [server/providers/common/query.js](server/providers/common/query.js) — 12 wierszy; deklaracje: `requiredFiniteQueryNumber:1`, `clampInt:8`
+- [server/providers/common/rate-limit.js](server/providers/common/rate-limit.js) — 34 wierszy; deklaracje: `makeOptInRateLimiter:16`, `clientKey:32`
+- [server/providers/common/request.js](server/providers/common/request.js) — 35 wierszy; deklaracje: `readRequestBodyCapped:2`, `readRequestBody:17`
+- [server/providers/common/source-root.js](server/providers/common/source-root.js) — 10 wierszy
+- [server/providers/firms.js](server/providers/firms.js) — 261 wierszy; deklaracje: `firmsProxy:28`, `readDiskOnce:47`, `writeDisk:64`, `fetchSource:78`, `refreshUpstream:93`
+- [server/providers/gbfs.js](server/providers/gbfs.js) — 249 wierszy; deklaracje: `gbfsRedirectHost:16`, `fetchGbfsUpstream:46`, `gbfsProxy:116`
+- [server/providers/live.js](server/providers/live.js) — 12 wierszy
+- [server/providers/local.js](server/providers/local.js) — 93 wierszy; deklaracje: `localProviderPlugins:25`
+- [server/providers/military-installations.js](server/providers/military-installations.js) — 215 wierszy; deklaracje: `militaryInstallationsProxy:32`, `refresh:33`, `install:79`
+- [server/providers/military-installations/cache.js](server/providers/military-installations/cache.js) — 171 wierszy; deklaracje: `resolveMilitaryInstallationTier:32`, `migrateMilitaryInstallationEntry:62`, `militaryInstallationDiskFresh:78`, `militaryInstallationDiskPath:93`, `readMilitaryInstallationDisk:108`
+- [server/providers/military-installations/constants.js](server/providers/military-installations/constants.js) — 61 wierszy
+- [server/providers/military-installations/query.js](server/providers/military-installations/query.js) — 85 wierszy; deklaracje: `quantizeMilitaryInstallationBox:10`, `militaryInstallationCacheKey:42`, `validMilitaryInstallationBox:48`, `militaryInstallationFailureReason:68`
+- [server/providers/openai.js](server/providers/openai.js) — 42 wierszy; deklaracje: `openAiRealtimeProxy:12`, `install:17`
+- [server/providers/openai/constants.js](server/providers/openai/constants.js) — 27 wierszy
+- [server/providers/openai/debug-log.js](server/providers/openai/debug-log.js) — 47 wierszy; deklaracje: `createDebugLogHandler:8`
+- [server/providers/openai/hud-summary.js](server/providers/openai/hud-summary.js) — 100 wierszy; deklaracje: `extractOpenAiResponseText:6`, `toFiveWordHudSummary:18`, `handleHudSummary:28`
+- [server/providers/openai/instructions.js](server/providers/openai/instructions.js) — 73 wierszy; deklaracje: `realtimeInstructions:4`
+- [server/providers/openai/rate-limit.js](server/providers/openai/rate-limit.js) — 39 wierszy; deklaracje: `openAiRateLimiter:11`, `enforceOptInRateLimit:29`
+- [server/providers/openai/realtime.js](server/providers/openai/realtime.js) — 161 wierszy; deklaracje: `createRealtimeTokenHandler:17`
+- [server/providers/openai/toolDescriptions.js](server/providers/openai/toolDescriptions.js) — 574 wierszy
+- [server/providers/openai/tools.js](server/providers/openai/tools.js) — 4 wierszy
+- [server/providers/overpass.js](server/providers/overpass.js) — 219 wierszy; deklaracje: `sendOverpassResponse:41`, `overpassProxy:62`
+- [server/providers/overpass/cache.js](server/providers/overpass/cache.js) — 137 wierszy; deklaracje: `overpassDiskTtlMs:18`, `overpassDiskPath:25`, `readOverpassDisk:37`, `writeOverpassDisk:58`, `resolveOverpassPreflight:88`
+- [server/providers/overpass/constants.js](server/providers/overpass/constants.js) — 148 wierszy
+- [server/providers/overpass/geometry.js](server/providers/overpass/geometry.js) — 101 wierszy; deklaracje: `douglasPeucker:9`, `simplifyElementGeometry:52`, `simplifyOverpassPayloadBody:79`
+- [server/providers/overpass/query.js](server/providers/overpass/query.js) — 151 wierszy; deklaracje: `isOverpassBoundaryQuery:17`, `sanitizeOverpassBody:36`
+- [server/providers/overpass/transport.js](server/providers/overpass/transport.js) — 158 wierszy; deklaracje: `overpassLooksRateLimited:19`, `overpassLooksRuntimeError:34`, `overpassPayloadIsData:52`, `fetchOverpassPayload:72`
+- [server/providers/places.js](server/providers/places.js) — 13 wierszy
+- [server/providers/places/google-key.js](server/providers/places/google-key.js) — 26 wierszy; deklaracje: `keylessGooglePlacesResponse:8`, `googleServerApiKey:24`
+- [server/providers/places/google.js](server/providers/places/google.js) — 288 wierszy; deklaracje: `googleRateLimiter:16`, `validatePlacesCoordinates:25`, `googlePlacesContextProxy:46`, `install:51`
+- [server/providers/places/routes.js](server/providers/places/routes.js) — 370 wierszy; deklaracje: `RouteBusyError:58`, `UpstreamRateLimitError:67`, `throughUpstreamGate:81`, `_resetRouteUpstreamForTest:112`, `_setRouteUpstreamIntervalForTest:125`
+- [server/providers/radio.js](server/providers/radio.js) — 19 wierszy; deklaracje: `radioBrowserProxy:9`
+- [server/providers/radio/catalog.js](server/providers/radio/catalog.js) — 394 wierszy; deklaracje: `mapRadioConcurrent:29`, `createRadioProxyMiddleware:47`, `fetchJson:64`, `mirrors:100`, `fetchPath:139`
+- [server/providers/radio/constants.js](server/providers/radio/constants.js) — 18 wierszy
+- [server/providers/radio/stations.js](server/providers/radio/stations.js) — 7 wierszy
+- [server/providers/radio/transport.js](server/providers/radio/transport.js) — 145 wierszy; deklaracje: `radioMirrorOrigin:4`, `isPublicRadioAddress:13`, `radioProxyDestination:68`, `resolveRadioProxyAddresses:94`, `fetchPinnedRadioResponse:112`
+- [server/providers/regional.js](server/providers/regional.js) — 11 wierszy
+- [server/providers/regional/briefing.js](server/providers/regional/briefing.js) — 155 wierszy; deklaracje: `regionalBriefHasAnySource:18`, `regionalBriefProxy:22`, `trimRegionalBriefCache:33`, `refresh:41`, `install:72`
+- [server/providers/regional/http.js](server/providers/regional/http.js) — 56 wierszy; deklaracje: `fetchRegional:26`, `fetchRegionalJson:48`, `fetchRegionalText:52`
+- [server/providers/regional/news.js](server/providers/regional/news.js) — 112 wierszy; deklaracje: `decodeRssText:4`, `rssTag:17`, `normalizeRssArticles:25`, `fetchRegionalNews:60`
+- [server/providers/regional/place.js](server/providers/regional/place.js) — 288 wierszy; deklaracje: `queueFullError:63`, `abandonedError:70`, `enqueueNominatim:87`, `createRegionalPlaceProvider:115`, `fetchRegionalPlace:119`
+- [server/providers/regional/query.js](server/providers/regional/query.js) — 12 wierszy; deklaracje: `validRegionalPoint:3`
+- [server/providers/regional/weather-effects.js](server/providers/regional/weather-effects.js) — 128 wierszy; deklaracje: `trimWeatherEffectsCache:22`, `weatherEffectsProxy:30`, `refresh:31`, `install:45`
+- [server/providers/regional/weather.js](server/providers/regional/weather.js) — 27 wierszy; deklaracje: `fetchRegionalWeather:6`
+- [server/providers/space.js](server/providers/space.js) — 7 wierszy
+- [server/providers/space/celestrak.js](server/providers/space/celestrak.js) — 139 wierszy; deklaracje: `celestrakProxy:23`, `readDisk:31`, `writeDisk:42`, `fetchUpstream:51`
+- [server/providers/space/launch-library.js](server/providers/space/launch-library.js) — 144 wierszy; deklaracje: `launchLibraryRequestHeaders:12`, `rocketLaunchesProxy:21`, `loadDiskCache:34`, `saveDiskCache:51`, `send:60`
+- [server/providers/terrain.js](server/providers/terrain.js) — 219 wierszy; deklaracje: `terrainHeightsProxy:24`, `loadDiskOnce:46`, `fetchUpstreamAll:125`, `fetchMissingSingleFlight:147`
+- [server/providers/traffic.js](server/providers/traffic.js) — 266 wierszy; deklaracje: `tomtomProxy:36`, `dailyBudgetLimit:53`, `loadBudgetOnce:58`, `persistBudget:75`, `currentBudget:85`
+- [server/providers/transit.js](server/providers/transit.js) — 24 wierszy; deklaracje: `transitProxy:5`, `install:7`
+- [server/providers/transitHistory.js](server/providers/transitHistory.js) — 5 wierszy
+- [server/providers/transitHistory.test.mjs](server/providers/transitHistory.test.mjs) — 179 wierszy; deklaracje: `history:19`
+- [server/providers/vessels/ais-live.js](server/providers/vessels/ais-live.js) — 406 wierszy; deklaracje: `aisLiveProxy:72`, `install:73`, `aisWebSocketImpl:192`, `aisWatchdogPolicy:219`, `aisAdapter:251`
+- [server/providers/vessels/ais-store.js](server/providers/vessels/ais-store.js) — 288 wierszy; deklaracje: `ingestAisStreamEnvelope:31`, `aisEpochSeconds:101`, `appendAisTrackSample:115`, `writeAisTrackSample:154`, `readAisTrack:166`
+- [server/standalone/api-not-found.js](server/standalone/api-not-found.js) — 17 wierszy; deklaracje: `apiNotFoundPlugin:2`
+- [server/standalone/key-setup-hardening.mjs](server/standalone/key-setup-hardening.mjs) — 218 wierszy; deklaracje: `resolveWindowsNativeTools:46`, `hardenCredentialFile:113`
+- [server/standalone/key-setup.js](server/standalone/key-setup.js) — 344 wierszy; deklaracje: `keySetupEndpoint:73`
+- [server/standalone/vite.config.js](server/standalone/vite.config.js) — 22 wierszy
+- [src/annotations/annotationEngine.js](src/annotations/annotationEngine.js) — 1569 wierszy; deklaracje: `resolveOutlineWithRetry:68`, `normalizeTargetKey:110`, `createAnnotationEngine:119`, `emitOutlineEvent:145`, `abortPending:155`
+- [src/annotations/annotationEngine.test.mjs](src/annotations/annotationEngine.test.mjs) — 728 wierszy; deklaracje: `scriptedResolver:29`, `fakeWait:42`, `installAnimationFrameStubs:50`, `fakeRenderer:63`, `flushMicrotasks:76`
+- [src/annotations/annotationResolver.js](src/annotations/annotationResolver.js) — 21 wierszy
+- [src/annotations/annotationResolver.test.mjs](src/annotations/annotationResolver.test.mjs) — 624 wierszy; deklaracje: `squareWay:25`, `closeViewportViewer:159`, `geocodePayload:171`, `installGoogleMocks:183`, `capitolViewer:371`
+- [src/annotations/drawMode.js](src/annotations/drawMode.js) — 303 wierszy; deklaracje: `normalizeShape:36`, `createDrawSession:44`, `greatCircleM:49`, `addVertex:67`, `isFiniteCoordinate:93`
+- [src/annotations/drawMode.test.mjs](src/annotations/drawMode.test.mjs) — 332 wierszy
+- [src/annotations/drawTool.js](src/annotations/drawTool.js) — 546 wierszy; deklaracje: `initDrawTool:70`, `setActive:319`, `bindSceneHandler:353`, `releaseSceneHandler:378`, `countPreviewDataSources:538`
+- [src/annotations/drawTool.test.mjs](src/annotations/drawTool.test.mjs) — 218 wierszy
+- [src/annotations/drawToolBehaviour.test.mjs](src/annotations/drawToolBehaviour.test.mjs) — 467 wierszy; deklaracje: `FakeClassList:19`, `FakeElement:40`, `fakeDom:103`, `fakeViewer:155`, `fakeAnnotations:196`
+- [src/annotations/hybridAnnotationRenderer.js](src/annotations/hybridAnnotationRenderer.js) — 158 wierszy; deklaracje: `createHybridAnnotationRenderer:21`, `add:27`, `update:74`, `remove:112`, `sync:136`
+- [src/annotations/hybridAnnotationRenderer.test.mjs](src/annotations/hybridAnnotationRenderer.test.mjs) — 501 wierszy; deklaracje: `FakeClassList:6`, `FakeElement:31`, `fakeDocument:112`, `findAnnotationGroup:133`, `cameraLookingAt:142`
+- [src/annotations/index.js](src/annotations/index.js) — 36 wierszy; deklaracje: `initAnnotations:13`
+- [src/annotations/resolver.js](src/annotations/resolver.js) — 1945 wierszy; deklaracje: `createAnnotationResolver:29`, `cacheRead:65`, `cacheWrite:75`, `negCache:86`, `linkAbort:93`
+- [src/annotations/screenAnnotationRenderer.js](src/annotations/screenAnnotationRenderer.js) — 857 wierszy; deklaracje: `markScale:47`, `createScreenAnnotationRenderer:54`, `trimHeightCache:81`, `color:103`, `groundHeight:109`
+- [src/annotations/screenAnnotationRenderer.test.mjs](src/annotations/screenAnnotationRenderer.test.mjs) — 328 wierszy; deklaracje: `FakeClassList:6`, `FakeElement:31`, `fakeDocument:112`, `findAnnotationGroup:133`
+- [src/annotations/worldAnnotationRenderer.js](src/annotations/worldAnnotationRenderer.js) — 542 wierszy; deklaracje: `createWorldAnnotationRenderer:49`, `colorFor:60`, `ringRadius:69`, `liveColor:75`, `add:82`
+- [src/app/application.js](src/app/application.js) — 152 wierszy; deklaracje: `createApplication:12`, `publish:37`, `cleanup:48`, `initialize:67`
+- [src/app/application.test.mjs](src/app/application.test.mjs) — 219 wierszy; deklaracje: `fixture:7`, `deferred:21`
+- [src/app/catalog.js](src/app/catalog.js) — 59 wierszy; deklaracje: `createLayerCatalog:17`, `catalogControlServices:48`
+- [src/app/catalog.test.mjs](src/app/catalog.test.mjs) — 108 wierszy
+- [src/app/constructCatalog.js](src/app/constructCatalog.js) — 149 wierszy; deklaracje: `createApplicationCatalog:53`
+- [src/app/constructCatalog.test.mjs](src/app/constructCatalog.test.mjs) — 119 wierszy; deklaracje: `fixtureSources:9`, `fixtureSurface:113`
+- [src/app/controls.js](src/app/controls.js) — 51 wierszy; deklaracje: `createApplicationControls:7`
+- [src/app/data.js](src/app/data.js) — 58 wierszy; deklaracje: `createApplicationData:4`
+- [src/app/errors.js](src/app/errors.js) — 25 wierszy; deklaracje: `describeError:7`
+- [src/app/layerPresentation.js](src/app/layerPresentation.js) — 85 wierszy; deklaracje: `LayerPresentation:6`
+- [src/app/layers/aisLiveVessels.js](src/app/layers/aisLiveVessels.js) — 31 wierszy; deklaracje: `createApplicationVessels:14`
+- [src/app/layers/alprCameras.js](src/app/layers/alprCameras.js) — 31 wierszy; deklaracje: `createApplicationAlpr:10`
+- [src/app/layers/bikeshare.js](src/app/layers/bikeshare.js) — 13 wierszy; deklaracje: `createApplicationBikeshare:8`
+- [src/app/layers/cctv.js](src/app/layers/cctv.js) — 28 wierszy; deklaracje: `createApplicationCctv:11`
+- [src/app/layers/directions.js](src/app/layers/directions.js) — 12 wierszy; deklaracje: `createApplicationDirections:10`
+- [src/app/layers/earthquakes.js](src/app/layers/earthquakes.js) — 6 wierszy; deklaracje: `createApplicationEarthquakes:4`
+- [src/app/layers/firms.js](src/app/layers/firms.js) — 36 wierszy; deklaracje: `createApplicationFirms:19`
+- [src/app/layers/flights.js](src/app/layers/flights.js) — 46 wierszy; deklaracje: `createApplicationFlights:16`
+- [src/app/layers/militaryAwareness.js](src/app/layers/militaryAwareness.js) — 23 wierszy; deklaracje: `createApplicationAwareness:6`
+- [src/app/layers/militaryFlights.js](src/app/layers/militaryFlights.js) — 46 wierszy; deklaracje: `createApplicationMilitary:16`
+- [src/app/layers/militaryInstallations.js](src/app/layers/militaryInstallations.js) — 13 wierszy; deklaracje: `createApplicationInstallations:7`
+- [src/app/layers/overlayHost.js](src/app/layers/overlayHost.js) — 10 wierszy
+- [src/app/layers/radio.js](src/app/layers/radio.js) — 14 wierszy; deklaracje: `createApplicationRadio:8`
+- [src/app/layers/rocketLaunches.js](src/app/layers/rocketLaunches.js) — 12 wierszy; deklaracje: `createApplicationLaunches:7`
+- [src/app/layers/satellites.js](src/app/layers/satellites.js) — 24 wierszy; deklaracje: `createApplicationSatellites:11`
+- [src/app/layers/submarineCables.js](src/app/layers/submarineCables.js) — 13 wierszy; deklaracje: `createApplicationCables:5`
+- [src/app/layers/traffic.js](src/app/layers/traffic.js) — 11 wierszy; deklaracje: `createApplicationTraffic:6`
+- [src/app/layers/transit.js](src/app/layers/transit.js) — 49 wierszy; deklaracje: `createApplicationTransit:25`

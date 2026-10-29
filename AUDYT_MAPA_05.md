@@ -1,0 +1,95 @@
+# gods-eye-view — mapa plików (5/5)
+
+Wykaz śledzonych plików z badanego commita. Liczba wierszy i nazwy deklaracji są wyciągane automatycznie z dostępnej kopii tekstowej; nie oznaczają ręcznej oceny pliku. Brak opisu oznacza, że zawartość nie była analizowana tą metodą (np. plik binarny, zasób lub pominięty plik).
+
+[Wróć do audytu](AUDYT_EDUKACYJNY.md) · [1](AUDYT_MAPA_01.md) · [2](AUDYT_MAPA_02.md) · [3](AUDYT_MAPA_03.md) · [4](AUDYT_MAPA_04.md) · [5](AUDYT_MAPA_05.md)
+
+- [src/ui/shellLifecycle.test.mjs](src/ui/shellLifecycle.test.mjs) — 269 wierszy; deklaracje: `fixture:9`
+- [src/ui/shellLifetime.test.mjs](src/ui/shellLifetime.test.mjs) — 135 wierszy; deklaracje: `replaceWindow:6`, `location:15`, `bindings:76`, `manager:92`
+- [src/ui/stateOwners.test.mjs](src/ui/stateOwners.test.mjs) — 143 wierszy; deklaracje: `navigation:6`
+- [src/ui/styleParameters.js](src/ui/styleParameters.js) — 65 wierszy; deklaracje: `createStyleParameters:10`
+- [src/ui/styles.js](src/ui/styles.js) — 2 wierszy
+- [src/ui/styles/bhote-koshi.css](src/ui/styles/bhote-koshi.css) — 613 wierszy
+- [src/ui/styles/cctv.css](src/ui/styles/cctv.css) — 351 wierszy
+- [src/ui/styles/cockpit.css](src/ui/styles/cockpit.css) — 2188 wierszy
+- [src/ui/styles/command-dock-compact.css](src/ui/styles/command-dock-compact.css) — 433 wierszy
+- [src/ui/styles/command-dock-sliding.css](src/ui/styles/command-dock-sliding.css) — 698 wierszy
+- [src/ui/styles/command-dock-trays.css](src/ui/styles/command-dock-trays.css) — 511 wierszy
+- [src/ui/styles/command-dock.css](src/ui/styles/command-dock.css) — 309 wierszy
+- [src/ui/styles/controls.css](src/ui/styles/controls.css) — 1161 wierszy
+- [src/ui/styles/first-run.css](src/ui/styles/first-run.css) — 383 wierszy
+- [src/ui/styles/foundation.css](src/ui/styles/foundation.css) — 652 wierszy
+- [src/ui/styles/layers.css](src/ui/styles/layers.css) — 1307 wierszy
+- [src/ui/styles/location.css](src/ui/styles/location.css) — 300 wierszy
+- [src/ui/styles/overlays.css](src/ui/styles/overlays.css) — 373 wierszy
+- [src/ui/styles/provider-settings.css](src/ui/styles/provider-settings.css) — 395 wierszy
+- [src/ui/styles/radio.css](src/ui/styles/radio.css) — 890 wierszy
+- [src/ui/styles/recording.css](src/ui/styles/recording.css) — 38 wierszy
+- [src/ui/styles/responsive.css](src/ui/styles/responsive.css) — 251 wierszy
+- [src/ui/styles/scenes.css](src/ui/styles/scenes.css) — 456 wierszy
+- [src/ui/styles/status.css](src/ui/styles/status.css) — 417 wierszy
+- [src/ui/styles/voice-cost.css](src/ui/styles/voice-cost.css) — 84 wierszy
+- [src/ui/surfaceKeyboard.js](src/ui/surfaceKeyboard.js) — 90 wierszy; deklaracje: `createSurfaceKeyboard:14`
+- [src/ui/surfaceKeyboard.test.mjs](src/ui/surfaceKeyboard.test.mjs) — 221 wierszy; deklaracje: `fixture:5`
+- [src/ui/templates/cockpit.html](src/ui/templates/cockpit.html) — 284 wierszy
+- [src/ui/templates/command-dock.html](src/ui/templates/command-dock.html) — 97 wierszy
+- [src/ui/templates/context.html](src/ui/templates/context.html) — 147 wierszy
+- [src/ui/templates/display-controls.html](src/ui/templates/display-controls.html) — 149 wierszy
+- [src/ui/templates/hud-loading.html](src/ui/templates/hud-loading.html) — 11 wierszy
+- [src/ui/templates/layer-panels.html](src/ui/templates/layer-panels.html) — 108 wierszy
+- [src/ui/templates/provider-settings.html](src/ui/templates/provider-settings.html) — 25 wierszy
+- [src/ui/templates/scene-chrome.html](src/ui/templates/scene-chrome.html) — 61 wierszy
+- [src/ui/templates/welcome.html](src/ui/templates/welcome.html) — 52 wierszy
+- [src/ui/uiLifetime.js](src/ui/uiLifetime.js) — 54 wierszy; deklaracje: `UiLifetime:2`
+- [src/ui/visualEffects.js](src/ui/visualEffects.js) — 235 wierszy; deklaracje: `VisualEffects:14`
+- [src/ui/visualEffects.test.mjs](src/ui/visualEffects.test.mjs) — 249 wierszy; deklaracje: `fixture:10`, `tick:53`
+- [src/ui/visualInput.js](src/ui/visualInput.js) — 2 wierszy
+- [src/ui/visualInput.test.mjs](src/ui/visualInput.test.mjs) — 245 wierszy; deklaracje: `Element:8`, `shortcuts:49`, `parameters:145`
+- [src/ui/visualPresets.js](src/ui/visualPresets.js) — 156 wierszy
+- [src/ui/visualSettings.js](src/ui/visualSettings.js) — 1591 wierszy; deklaracje: `VisualSettings:38`
+- [src/unitTestRunner.test.mjs](src/unitTestRunner.test.mjs) — 67 wierszy
+- [src/voice/actionSchemas.js](src/voice/actionSchemas.js) — 944 wierszy; deklaracje: `freeze:865`, `createActionTools:877`, `describe:888`
+- [src/voice/actionSchemas.test.mjs](src/voice/actionSchemas.test.mjs) — 78 wierszy
+- [src/voice/aircraftIdentityNarration.test.mjs](src/voice/aircraftIdentityNarration.test.mjs) — 38 wierszy
+- [src/voice/commands.js](src/voice/commands.js) — 10 wierszy; deklaracje: `createVoiceCommands:5`
+- [src/voice/control.js](src/voice/control.js) — 72 wierszy; deklaracje: `createVoiceControl:2`
+- [src/voice/gevActions.js](src/voice/gevActions.js) — 4337 wierszy; deklaracje: `withContextModeVocabulary:137`, `cachesFor:288`, `createGevActionRunner:314`, `selectedCockpitTarget:1138`, `clampStr:1158`
+- [src/voice/gevActions.test.mjs](src/voice/gevActions.test.mjs) — 3184 wierszy; deklaracje: `createVoiceNavigationHarness:99`, `contextClaimProbe:2482`, `createPrewarmHarness:2560`, `withCapturedTimers:2602`, `awarenessSubjectHarness:2813`
+- [src/voice/gevRealtime.js](src/voice/gevRealtime.js) — 11 wierszy; deklaracje: `initGevVoiceCommands:6`
+- [src/voice/gevRealtime.test.mjs](src/voice/gevRealtime.test.mjs) — 3683 wierszy; deklaracje: `createPushToTalkFixture:65`, `pushToTalkTarget:159`, `fakeVoiceStorage:3001`, `costControllerHarness:3107`, `textCommandController:3432`
+- [src/voice/layerSummary.js](src/voice/layerSummary.js) — 37 wierszy; deklaracje: `readLayerLifecycleSummary:2`
+- [src/voice/realtimeBackend.js](src/voice/realtimeBackend.js) — 93 wierszy; deklaracje: `createRealtimeBackend:4`
+- [src/voice/realtimeBackend.test.mjs](src/voice/realtimeBackend.test.mjs) — 132 wierszy
+- [src/voice/realtimeConnection.js](src/voice/realtimeConnection.js) — 382 wierszy; deklaracje: `releaseStartResources:3`, `RealtimeConnection:20`
+- [src/voice/realtimeController.js](src/voice/realtimeController.js) — 353 wierszy; deklaracje: `GevRealtimeController:56`
+- [src/voice/realtimeCost.js](src/voice/realtimeCost.js) — 209 wierszy; deklaracje: `RealtimeCost:14`
+- [src/voice/realtimeDiagnostics.js](src/voice/realtimeDiagnostics.js) — 226 wierszy; deklaracje: `createDebugSessionId:7`, `postDebugLog:12`, `sanitizeDebugValue:30`, `sanitizeDebugString:50`, `isSecretLikeKey:68`
+- [src/voice/realtimeEvents.js](src/voice/realtimeEvents.js) — 45 wierszy; deklaracje: `realtimeSessionEvent:2`
+- [src/voice/realtimeFacade.js](src/voice/realtimeFacade.js) — 566 wierszy; deklaracje: `RealtimeFacade:2`
+- [src/voice/realtimeInput.js](src/voice/realtimeInput.js) — 408 wierszy; deklaracje: `RealtimeInput:18`
+- [src/voice/realtimeInputPolicy.js](src/voice/realtimeInputPolicy.js) — 185 wierszy; deklaracje: `isPushToTalkKey:15`, `isPushToTalkSurface:55`, `isInteractiveSpaceTarget:62`, `isEditingSpaceTarget:70`, `shouldHandlePushToTalkKeyDown:101`
+- [src/voice/realtimeOwners.test.mjs](src/voice/realtimeOwners.test.mjs) — 265 wierszy; deklaracje: `installGlobals:8`, `browser:19`, `Peer:22`, `AudioContext:166`, `AudioContext:187`
+- [src/voice/realtimePreferences.js](src/voice/realtimePreferences.js) — 84 wierszy; deklaracje: `voiceStorage:16`, `readStoredVoiceTier:29`, `writeStoredVoiceTier:41`, `readStoredVoiceLimits:55`, `writeStoredVoiceLimits:73`
+- [src/voice/realtimeProtocol.js](src/voice/realtimeProtocol.js) — 247 wierszy; deklaracje: `shouldPauseRadioForVoice:10`, `shouldStopVoiceAfterRadioTool:25`, `startPreparedRadioAfterPlaybackReady:36`, `silenceRadioForVoice:84`, `shouldSendViewportImage:89`
+- [src/voice/realtimeRadio.js](src/voice/realtimeRadio.js) — 351 wierszy; deklaracje: `RealtimeRadio:7`
+- [src/voice/realtimeSession.js](src/voice/realtimeSession.js) — 35 wierszy; deklaracje: `createRealtimeSession:4`
+- [src/voice/realtimeTurns.js](src/voice/realtimeTurns.js) — 715 wierszy; deklaracje: `RealtimeTurns:14`
+- [src/voice/realtimeViewport.js](src/voice/realtimeViewport.js) — 275 wierszy; deklaracje: `captureViewportImage:14`, `computeDownscale:65`, `estimateDataUrlBytes:83`, `renderFreshCesiumFrame:98`, `isNearlyBlackFrame:129`
+- [src/voice/session.js](src/voice/session.js) — 157 wierszy; deklaracje: `createVoiceSession:7`, `cancelActions:19`, `emit:25`, `runAction:45`, `dispose:81`
+- [src/voice/session.test.mjs](src/voice/session.test.mjs) — 348 wierszy; deklaracje: `deferred:7`, `fixture:15`
+- [src/voice/sessionCommands.js](src/voice/sessionCommands.js) — 86 wierszy; deklaracje: `createVoiceCommands:5`
+- [src/voice/voiceCost.js](src/voice/voiceCost.js) — 470 wierszy; deklaracje: `resolveVoiceModel:101`, `isKnownVoiceTier:112`, `mostExpensiveVoiceModel:122`, `resolveVoiceModelById:143`, `normalizeCostLimits:192`
+- [src/voice/voiceCost.test.mjs](src/voice/voiceCost.test.mjs) — 614 wierszy
+- [src/weatherEffectsMath.js](src/weatherEffectsMath.js) — 87 wierszy; deklaracje: `clamp01:1`, `range01:5`, `deriveWeatherEffectProfile:15`, `weatherAltitudeFactors:80`
+- [src/weatherEffectsMath.test.mjs](src/weatherEffectsMath.test.mjs) — 64 wierszy
+- [src/worldFocus.js](src/worldFocus.js) — 96 wierszy; deklaracje: `isValidWorldFocusTarget:15`, `requestWorldFocus:37`, `registerWorldFocusRequestListener:47`, `routeWorldFocusRequest:64`, `flyToWorldTarget:73`
+- [src/worldFocus.test.mjs](src/worldFocus.test.mjs) — 169 wierszy; deklaracje: `stubCamera:19`
+- [style.css](style.css) — 21 wierszy
+- [tools/README.md](tools/README.md) — 188 wierszy
+- [tools/cesium-render.html](tools/cesium-render.html) — 271 wierszy; deklaracje: `setCamera:97`, `pumpFrames:165`, `go:168`, `waitStable:178`, `check:182`
+- [tools/cesium-render.mjs](tools/cesium-render.mjs) — 378 wierszy; deklaracje: `parseArgs:62`, `loadApiKey:155`, `startServer:180`, `main:239`
+- [tools/pano-pinhole.mjs](tools/pano-pinhole.mjs) — 374 wierszy; deklaracje: `parseArgs:50`, `sampleBilinear:118`, `buildRotationMatrix:170`, `renderView:238`, `main:283`
+- [tools/sat-ortho.mjs](tools/sat-ortho.mjs) — 356 wierszy; deklaracje: `parseArgs:48`, `loadApiKey:90`, `latLonToTile:116`, `tilePxToLatLon:125`, `metersPerPixel:134`
+- [tools/streetview-headings.mjs](tools/streetview-headings.mjs) — 264 wierszy; deklaracje: `parseArgs:34`, `loadApiKey:64`, `getNeighborLocations:88`, `fetchHeadingsForLocation:148`, `main:171`
+- [tools/streetview-panorama.mjs](tools/streetview-panorama.mjs) — 378 wierszy; deklaracje: `parseArgs:38`, `loadApiKey:73`, `createSession:102`, `findPanoId:116`, `getMetadata:135`
+- [vite.config.js](vite.config.js) — 3 wierszy

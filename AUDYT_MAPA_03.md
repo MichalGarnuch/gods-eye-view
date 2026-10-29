@@ -1,0 +1,306 @@
+# gods-eye-view — mapa plików (3/5)
+
+Wykaz śledzonych plików z badanego commita. Liczba wierszy i nazwy deklaracji są wyciągane automatycznie z dostępnej kopii tekstowej; nie oznaczają ręcznej oceny pliku. Brak opisu oznacza, że zawartość nie była analizowana tą metodą (np. plik binarny, zasób lub pominięty plik).
+
+[Wróć do audytu](AUDYT_EDUKACYJNY.md) · [1](AUDYT_MAPA_01.md) · [2](AUDYT_MAPA_02.md) · [3](AUDYT_MAPA_03.md) · [4](AUDYT_MAPA_04.md) · [5](AUDYT_MAPA_05.md)
+
+- [src/data/trafficBounds.test.mjs](src/data/trafficBounds.test.mjs) — 110 wierszy
+- [src/data/trafficFlowStyle.js](src/data/trafficFlowStyle.js) — 80 wierszy; deklaracje: `flowBucket:35`, `flowColor:47`, `flowSpeedScale:57`, `flowDensityMult:76`
+- [src/data/trafficFlowStyle.test.mjs](src/data/trafficFlowStyle.test.mjs) — 106 wierszy
+- [src/data/trafficPresetStyle.js](src/data/trafficPresetStyle.js) — 150 wierszy; deklaracje: `trafficStyleProfile:88`, `presetDotRgba:99`, `presetSizeDelta:110`, `presetDotOutline:125`, `trafficBucketTier:145`
+- [src/data/trafficPresetStyle.test.mjs](src/data/trafficPresetStyle.test.mjs) — 120 wierszy
+- [src/data/trafficQueue.js](src/data/trafficQueue.js) — 93 wierszy; deklaracje: `queuePlatoons:34`, `queueDistances:68`, `locateAlongRoad:82`
+- [src/data/trafficQueue.test.mjs](src/data/trafficQueue.test.mjs) — 73 wierszy
+- [src/data/trafficTiming.test.mjs](src/data/trafficTiming.test.mjs) — 377 wierszy; deklaracje: `functionBody:10`, `canonicalSemanticBody:75`, `traceOnlyBlocks:87`, `eventChannel:93`
+- [src/data/trailRenderer.js](src/data/trailRenderer.js) — 141 wierszy; deklaracje: `createTrail:57`, `ensureEntity:66`
+- [src/data/trailRenderer.test.mjs](src/data/trailRenderer.test.mjs) — 39 wierszy
+- [src/data/transit.js](src/data/transit.js) — 56 wierszy
+- [src/data/transit.test.mjs](src/data/transit.test.mjs) — 225 wierszy
+- [src/data/transitFeeds.js](src/data/transitFeeds.js) — 404 wierszy; deklaracje: `mbtaRouteMode:56`, `enturRouteMode:72`, `hslRouteMode:96`, `metroTransitRouteMode:111`, `getTransitFeed:302`
+- [src/data/transitFeeds.test.mjs](src/data/transitFeeds.test.mjs) — 241 wierszy
+- [src/data/transitIcons.js](src/data/transitIcons.js) — 215 wierszy; deklaracje: `haloFrame:142`, `transitIconCacheSize:153`, `transitIcon:172`
+- [src/data/transitIcons.test.mjs](src/data/transitIcons.test.mjs) — 240 wierszy
+- [src/data/transitPresetStyle.js](src/data/transitPresetStyle.js) — 145 wierszy; deklaracje: `transitStyleProfile:87`, `presetSpriteRgba:97`, `presetSpriteScale:113`, `presetSpriteOutlinePx:122`, `transitModeTier:138`
+- [src/data/transitPresetStyle.test.mjs](src/data/transitPresetStyle.test.mjs) — 96 wierszy
+- [src/data/transitProxy.js](src/data/transitProxy.js) — 310 wierszy; deklaracje: `isTransitRedirectStatus:48`, `resolveTransitRoute:76`, `transitUpstreamHeaders:113`, `isAcceptableTransitUpstreamUrl:132`, `transitRedirectDecision:154`
+- [src/data/transitProxy.test.mjs](src/data/transitProxy.test.mjs) — 367 wierszy; deklaracje: `encodeFeed:122`
+- [src/data/vesselLabels.js](src/data/vesselLabels.js) — 157 wierszy; deklaracje: `normalizeVesselType:73`, `vesselTypeCss:83`, `accentForVesselType:88`, `styleForType:92`, `vesselOverlayCohortLimit:106`
+- [src/data/vesselLabels.test.mjs](src/data/vesselLabels.test.mjs) — 95 wierszy
+- [src/devCctv.test.mjs](src/devCctv.test.mjs) — 95 wierszy; deklaracje: `launch:14`
+- [src/devFreshDotenv.test.mjs](src/devFreshDotenv.test.mjs) — 134 wierszy
+- [src/director/authoring.js](src/director/authoring.js) — 54 wierszy; deklaracje: `editSceneDetails:4`, `selectSceneDocument:49`
+- [src/director/camera.js](src/director/camera.js) — 54 wierszy; deklaracje: `resolveCameraPose:4`, `resolveCameraMove:21`, `sampleCameraMove:32`
+- [src/director/camera.test.mjs](src/director/camera.test.mjs) — 153 wierszy
+- [src/director/cameraDocument.js](src/director/cameraDocument.js) — 88 wierszy; deklaracje: `coordinates:17`, `reference:23`, `pose:30`, `validateSceneCameras:54`
+- [src/director/clock.js](src/director/clock.js) — 301 wierszy; deklaracje: `createPlaybackClock:4`, `PlaybackClock:8`
+- [src/director/clock.test.mjs](src/director/clock.test.mjs) — 173 wierszy; deklaracje: `fixture:13`
+- [src/director/document.js](src/director/document.js) — 186 wierszy; deklaracje: `visual:21`, `validateSceneDocument:60`, `parseSceneDocument:164`, `stringifySceneDocument:181`
+- [src/director/document.test.mjs](src/director/document.test.mjs) — 161 wierszy
+- [src/director/documentFields.js](src/director/documentFields.js) — 94 wierszy; deklaracje: `SceneDocumentError:13`, `fields:27`, `string:33`, `number:37`, `optional:48`
+- [src/director/interactions/document.js](src/director/interactions/document.js) — 96 wierszy; deklaracje: `validateSceneInteractions:11`
+- [src/director/interactions/interactions.test.mjs](src/director/interactions/interactions.test.mjs) — 247 wierszy
+- [src/director/interactions/session.js](src/director/interactions/session.js) — 61 wierszy; deklaracje: `createInteractionSession:2`, `clear:9`
+- [src/director/packs/geojson.js](src/director/packs/geojson.js) — 62 wierszy; deklaracje: `decodePackGeoJSON:4`, `position:16`, `line:29`
+- [src/director/packs/manifest.js](src/director/packs/manifest.js) — 138 wierszy; deklaracje: `validateAssetPath:19`, `validateDataPack:33`, `validateSceneDataPacks:120`
+- [src/director/packs/packs.test.mjs](src/director/packs/packs.test.mjs) — 365 wierszy
+- [src/director/packs/session.js](src/director/packs/session.js) — 159 wierszy; deklaracje: `untilAbort:4`, `createDataPackSession:36`, `clear:45`
+- [src/director/packs/source.js](src/director/packs/source.js) — 67 wierszy; deklaracje: `createAssetDirectorySource:4`
+- [src/director/playback.js](src/director/playback.js) — 137 wierszy; deklaracje: `buildPlaybackQueue:9`, `playSceneQueue:49`
+- [src/director/playback.test.mjs](src/director/playback.test.mjs) — 198 wierszy; deklaracje: `fixture:20`
+- [src/director/sharing/bundle.js](src/director/sharing/bundle.js) — 221 wierszy; deklaracje: `encode:30`, `decode:36`, `checkBytes:48`, `checkMime:57`, `parseSceneShare:62`
+- [src/director/sharing/lifetime.js](src/director/sharing/lifetime.js) — 26 wierszy; deklaracje: `withShareSignal:2`
+- [src/director/sharing/preview.js](src/director/sharing/preview.js) — 43 wierszy; deklaracje: `describeSceneShare:4`
+- [src/director/sharing/sharing.test.mjs](src/director/sharing/sharing.test.mjs) — 277 wierszy
+- [src/director/timeline.js](src/director/timeline.js) — 110 wierszy; deklaracje: `sceneTimingForShot:11`, `cameraAtProgress:34`, `sceneSeekState:57`
+- [src/director/timeline.test.mjs](src/director/timeline.test.mjs) — 51 wierszy
+- [src/firstRunExperience.js](src/firstRunExperience.js) — 639 wierszy; deklaracje: `environmentalLabel:47`, `resolveStore:143`, `readStored:156`, `writeStored:170`, `removeStored:185`
+- [src/firstRunExperience.test.mjs](src/firstRunExperience.test.mjs) — 701 wierszy; deklaracje: `memoryStorage:22`, `missionSpy:383`
+- [src/googlePlacesCoordinates.test.mjs](src/googlePlacesCoordinates.test.mjs) — 106 wierszy; deklaracje: `installGooglePlacesRoutes:5`, `invokeRoute:17`
+- [src/googlePlacesKeyless.test.mjs](src/googlePlacesKeyless.test.mjs) — 93 wierszy; deklaracje: `installGooglePlacesRoutes:7`, `invokeRoute:19`
+- [src/googleServerKey.test.mjs](src/googleServerKey.test.mjs) — 124 wierszy; deklaracje: `withKeys:10`
+- [src/hud.js](src/hud.js) — 924 wierszy; deklaracje: `IntelHUD:85`
+- [src/hudA11y.test.mjs](src/hudA11y.test.mjs) — 31 wierszy
+- [src/hudAltitudeDatum.test.mjs](src/hudAltitudeDatum.test.mjs) — 250 wierszy; deklaracje: `installHudEnvironment:60`
+- [src/hudLocality.js](src/hudLocality.js) — 54 wierszy; deklaracje: `coordinateTag:33`, `composeLocalityTag:48`
+- [src/hudLocality.test.mjs](src/hudLocality.test.mjs) — 96 wierszy
+- [src/hudSummaryResponse.js](src/hudSummaryResponse.js) — 38 wierszy; deklaracje: `keylessHudSummaryResponse:11`, `isHudSummaryUnconfigured:25`
+- [src/hudSummaryResponse.test.mjs](src/hudSummaryResponse.test.mjs) — 130 wierszy; deklaracje: `installOpenAiRoutes:17`, `invokeRoute:29`
+- [src/keySetup.js](src/keySetup.js) — 386 wierszy; deklaracje: `keySetupChipLabel:20`, `collectKeyUpdates:32`, `stripKeylessBasemapFromHash:50`, `buildRow:65`, `initKeySetup:154`
+- [src/keySetup.test.mjs](src/keySetup.test.mjs) — 64 wierszy
+- [src/keySetupCore.mjs](src/keySetupCore.mjs) — 504 wierszy; deklaracje: `localAuthority:117`, `commandCompletedSuccessfully:135`, `parseCsvRecord:140`, `parseWindowsUserSid:178`, `admitKeySetupRequest:208`
+- [src/keySetupCore.test.mjs](src/keySetupCore.test.mjs) — 364 wierszy
+- [src/keySetupHardening.test.mjs](src/keySetupHardening.test.mjs) — 400 wierszy; deklaracje: `windowsFileSystem:12`, `fileSystemWithMode:38`
+- [src/keyboardFocusStyles.test.mjs](src/keyboardFocusStyles.test.mjs) — 87 wierszy; deklaracje: `ruleBody:8`, `ruleText:16`, `ruleBodyContaining:23`
+- [src/keylessGeocoder.js](src/keylessGeocoder.js) — 419 wierszy; deklaracje: `photonResultTypes:89`, `photonExtentToBounds:112`, `photonResultLabel:132`, `normalizePhotonFeature:159`, `photonSearchUrl:200`
+- [src/keylessGeocoder.test.mjs](src/keylessGeocoder.test.mjs) — 454 wierszy; deklaracje: `photonPair:227`, `readGeocodingConsumer:450`
+- [src/layers/aircraft/classification.js](src/layers/aircraft/classification.js) — 167 wierszy; deklaracje: `createMilitaryRegistry:3`, `configureSource:21`, `isMilitaryLayerActive:53`, `setMilitaryLayerActive:65`, `onMilitaryLayerActiveChange:84`
+- [src/layers/aircraft/classification.test.mjs](src/layers/aircraft/classification.test.mjs) — 141 wierszy
+- [src/layers/aircraft/index.js](src/layers/aircraft/index.js) — 17 wierszy
+- [src/layers/alpr/assets/alpr-marker-normal.png](src/layers/alpr/assets/alpr-marker-normal.png)
+- [src/layers/alpr/assets/alpr-marker-selected-brackets.png](src/layers/alpr/assets/alpr-marker-selected-brackets.png)
+- [src/layers/alpr/assets/alpr-marker-selected.png](src/layers/alpr/assets/alpr-marker-selected.png)
+- [src/layers/alpr/index.js](src/layers/alpr/index.js) — 387 wierszy; deklaracje: `createAlprCamerasLayer:33`, `setAlprStatus:86`, `scheduleUnavailableRetry:93`, `clearUnavailableRetry:105`, `scheduleLoad:112`
+- [src/layers/alpr/model.js](src/layers/alpr/model.js) — 54 wierszy; deklaracje: `destinationPointDeg:13`, `alprCreditMarkup:35`
+- [src/layers/alpr/overlay.js](src/layers/alpr/overlay.js) — 298 wierszy; deklaracje: `createAlprOverlay:17`, `nativeVisible:31`, `resetAnchors:63`, `anchorFor:75`, `paint:107`
+- [src/layers/alpr/overlay.test.mjs](src/layers/alpr/overlay.test.mjs) — 201 wierszy; deklaracje: `harness:7`
+- [src/layers/alpr/policy.js](src/layers/alpr/policy.js) — 59 wierszy
+- [src/layers/alpr/presentation.js](src/layers/alpr/presentation.js) — 462 wierszy; deklaracje: `createAlprPresentation:24`, `updateAppearance:39`, `markerColor:61`, `viewportBox:68`, `clearRendered:120`
+- [src/layers/alpr/records.js](src/layers/alpr/records.js) — 155 wierszy; deklaracje: `textTag:3`, `numTag:8`, `snapAlprBox:24`, `boxContains:36`, `alprRetryDelayMs:50`
+- [src/layers/alpr/source.js](src/layers/alpr/source.js) — 84 wierszy; deklaracje: `createOverpassAlprSource:9`, `fetchAlprNodes:12`
+- [src/layers/alpr/source.test.mjs](src/layers/alpr/source.test.mjs) — 117 wierszy
+- [src/layers/alpr/visuals.js](src/layers/alpr/visuals.js) — 106 wierszy; deklaracje: `alprDisplayId:21`, `alprLabelDetails:27`, `directionWedgePositions:52`, `paintDirectionWedge:74`, `validAlprGroundHeight:104`
+- [src/layers/awareness/controls.js](src/layers/awareness/controls.js) — 126 wierszy; deklaracje: `createControls:3`
+- [src/layers/awareness/dependencies.js](src/layers/awareness/dependencies.js) — 118 wierszy; deklaracje: `createDependencies:3`, `refreshAfterDeferredDependency:9`, `enableDependencies:25`, `releaseOwnedDependencies:65`, `activateOperationalContext:82`
+- [src/layers/awareness/focus.js](src/layers/awareness/focus.js) — 198 wierszy; deklaracje: `createFocus:4`, `focusNearbyTarget:13`, `selectKnownContextTarget:55`, `requestFocus:82`, `focusSubject:97`
+- [src/layers/awareness/history.js](src/layers/awareness/history.js) — 239 wierszy; deklaracje: `createHistory:1`, `focusCompatibleHistory:23`, `navigateHistory:57`, `historySubjectItem:143`, `historySubjectSnapshot:160`
+- [src/layers/awareness/index.js](src/layers/awareness/index.js) — 66 wierszy; deklaracje: `createAwarenessLayer:17`
+- [src/layers/awareness/ingestion.js](src/layers/awareness/ingestion.js) — 15 wierszy; deklaracje: `createIngestion:1`
+- [src/layers/awareness/lifecycle.js](src/layers/awareness/lifecycle.js) — 263 wierszy; deklaracje: `createLifecycle:3`, `cameraMotionSignature:19`, `syncAwarenessRenderHold:32`, `attachRuntimeListeners:38`, `detachRuntimeListeners:93`
+- [src/layers/awareness/model.js](src/layers/awareness/model.js) — 251 wierszy; deklaracje: `createModel:8`, `contextTargetFlyToAllowed:22`, `awarenessRefreshIntervalMs:44`, `awarenessRefreshDecision:68`, `awarenessClearIsEviction:97`
+- [src/layers/awareness/navigation.js](src/layers/awareness/navigation.js) — 274 wierszy; deklaracje: `createNavigation:13`, `summarizeAwarenessCohortForNavigation:22`, `resetNavigationVisitedCycle:42`, `isFlightLayer:48`, `normalizeAircraftClass:52`
+- [src/layers/awareness/panel.js](src/layers/awareness/panel.js) — 249 wierszy; deklaracje: `createPanel:8`, `ensurePanel:9`, `hidePanel:47`, `rowHtml:62`, `navigationControlsHtml:94`
+- [src/layers/awareness/policy.js](src/layers/awareness/policy.js) — 68 wierszy
+- [src/layers/awareness/queries.js](src/layers/awareness/queries.js) — 164 wierszy; deklaracje: `createQueries:4`, `sourceState:8`, `collectSourceStates:59`, `sourceRevision:65`, `isSame:83`
+- [src/layers/awareness/rendering.js](src/layers/awareness/rendering.js) — 288 wierszy; deklaracje: `createRendering:10`, `ensureDirectionOverlay:19`, `scheduleDirectionOverlayUpdate:70`, `cancelDirectionOverlayUpdate:86`, `updateDirectionOverlay:93`
+- [src/layers/awareness/state.js](src/layers/awareness/state.js) — 70 wierszy; deklaracje: `createState:3`
+- [src/layers/awareness/subject.js](src/layers/awareness/subject.js) — 447 wierszy; deklaracje: `createSubject:13`, `awarenessClearMatchesSubject:26`, `evaluateSubject:30`, `subjectKey:105`, `normalizeContextId:109`
+- [src/layers/awareness/testing.js](src/layers/awareness/testing.js) — 15 wierszy; deklaracje: `createTesting:1`, `_getAwarenessNavigationStateForTest:4`
+- [src/layers/bikeshare/controls.js](src/layers/bikeshare/controls.js) — 46 wierszy; deklaracje: `createControls:3`
+- [src/layers/bikeshare/index.js](src/layers/bikeshare/index.js) — 50 wierszy; deklaracje: `createBikeshareLayer:13`
+- [src/layers/bikeshare/ingestion.js](src/layers/bikeshare/ingestion.js) — 212 wierszy; deklaracje: `createIngestion:3`, `toProxyUrl:16`, `beginLoading:22`, `endLoading:29`, `fetchGbfsJson:43`
+- [src/layers/bikeshare/lifecycle.js](src/layers/bikeshare/lifecycle.js) — 177 wierszy; deklaracje: `createLifecycle:9`
+- [src/layers/bikeshare/model.js](src/layers/bikeshare/model.js) — 162 wierszy; deklaracje: `createModel:1`, `normalizeGbfsBool:10`, `toNonNegativeInteger:28`, `stationKey:41`, `haversineKm:54`
+- [src/layers/bikeshare/policy.js](src/layers/bikeshare/policy.js) — 85 wierszy
+- [src/layers/bikeshare/proxyRoute.test.mjs](src/layers/bikeshare/proxyRoute.test.mjs) — 300 wierszy; deklaracje: `mountGbfsProxy:62`, `withUpstream:113`, `composedGbfsPlugin:245`
+- [src/layers/bikeshare/queries.js](src/layers/bikeshare/queries.js) — 75 wierszy; deklaracje: `createQueries:1`, `buildDetectionId:9`, `collectDetectableStations:32`
+- [src/layers/bikeshare/registry.js](src/layers/bikeshare/registry.js) — 394 wierszy; deklaracje: `buildBcycleUrls:1`, `bcycleEntry:7`, `normalizeRegistryEntry:322`
+- [src/layers/bikeshare/rendering.js](src/layers/bikeshare/rendering.js) — 282 wierszy; deklaracje: `createRendering:16`, `resolveCapacity:33`, `capacityToPixelSize:53`, `statusToColor:74`, `createStationPosition:96`
+- [src/layers/bikeshare/selection.js](src/layers/bikeshare/selection.js) — 209 wierszy; deklaracje: `createSelection:8`, `buildSelectionLabel:21`, `createBikeshareSelectedOverlayEntry:58`, `_clearSelection:90`, `_selectStation:113`
+- [src/layers/bikeshare/source.js](src/layers/bikeshare/source.js) — 23 wierszy; deklaracje: `createBikeshareSource:2`
+- [src/layers/bikeshare/source.test.mjs](src/layers/bikeshare/source.test.mjs) — 44 wierszy
+- [src/layers/bikeshare/state.js](src/layers/bikeshare/state.js) — 110 wierszy; deklaracje: `createState:1`
+- [src/layers/bikeshare/testing.js](src/layers/bikeshare/testing.js) — 34 wierszy; deklaracje: `createTesting:1`, `_setBikeshareSelectionStateForTest:4`, `_selectBikeshareStationForTest:19`, `_clearBikeshareSelectionForTest:25`
+- [src/layers/bikeshare/viewport.js](src/layers/bikeshare/viewport.js) — 257 wierszy; deklaracje: `createViewport:10`, `getCameraAltitude:19`, `getCameraCenterLatLon:32`, `shouldActivateAtAltitude:65`, `computeInRangeCities:89`
+- [src/layers/cctv/calibration.js](src/layers/cctv/calibration.js) — 355 wierszy; deklaracje: `createCalibration:9`, `calibrationPatchMovesAnchor:23`, `normalizeCalibration:38`, `migrateRangeScaleForFloor:91`, `isDefaultCalibration:115`
+- [src/layers/cctv/cards.js](src/layers/cctv/cards.js) — 404 wierszy; deklaracje: `createCards:22`, `setCctvCardPresentationOptions:33`, `ensureCardFrameSlot:50`, `refreshAmbientCards:72`, `pushAmbientCardEntries:221`
+- [src/layers/cctv/catalog.js](src/layers/cctv/catalog.js) — 220 wierszy; deklaracje: `createCatalog:3`, `seedCatalog:13`, `cityIdByName:60`, `loadCameraSources:83`, `buildCatalogFromSources:104`
+- [src/layers/cctv/controls.js](src/layers/cctv/controls.js) — 358 wierszy; deklaracje: `createControls:9`
+- [src/layers/cctv/frames.js](src/layers/cctv/frames.js) — 368 wierszy; deklaracje: `createFrames:15`, `frameSignatureFromPixels:27`, `projectionFrameSignature:48`, `paintNextProjectionBuffer:89`, `refreshProjectionTextures:120`
+- [src/layers/cctv/geometry.js](src/layers/cctv/geometry.js) — 842 wierszy; deklaracje: `createGeometry:20`, `footprintGroundFor:35`, `footprintPose:56`, `hasShippedFootprint:81`, `computeFrustumGeometry:129`
+- [src/layers/cctv/geometryQueue.js](src/layers/cctv/geometryQueue.js) — 339 wierszy; deklaracje: `createGeometryQueue:11`, `stopGeometryLoadQueue:23`, `createGeometryProgressNotifier:50`, `processCctvGeometryQueueBatch:97`, `cctvGeometryDrainPacing:129`
+- [src/layers/cctv/ground.js](src/layers/cctv/ground.js) — 363 wierszy; deklaracje: `createGround:10`, `surfaceRegimeKey:32`, `currentSurfaceRegime:45`, `groundPriorAltFor:61`, `isGroundResolved:77`
+- [src/layers/cctv/health.js](src/layers/cctv/health.js) — 41 wierszy; deklaracje: `createHealth:3`, `syncHealthState:10`
+- [src/layers/cctv/hover.js](src/layers/cctv/hover.js) — 127 wierszy; deklaracje: `createHover:8`, `handleHoverMove:20`, `cancelHoverRelease:70`, `scheduleHoverRelease:83`, `clearHoverCard:94`
+- [src/layers/cctv/index.js](src/layers/cctv/index.js) — 131 wierszy; deklaracje: `createCctvLayer:23`
+- [src/layers/cctv/ingestion.js](src/layers/cctv/ingestion.js) — 48 wierszy; deklaracje: `createIngestion:1`
+- [src/layers/cctv/lifecycle.js](src/layers/cctv/lifecycle.js) — 471 wierszy; deklaracje: `createLifecycle:12`, `clearRuntimeState:27`
+- [src/layers/cctv/model.js](src/layers/cctv/model.js) — 566 wierszy; deklaracje: `createModel:6`, `toRad:15`, `normalizeHeading:25`, `clamp:39`, `normalizeSignedAngle:49`
+- [src/layers/cctv/navigation.js](src/layers/cctv/navigation.js) — 157 wierszy; deklaracje: `createNavigation:4`, `nearestCameraIdToViewer:15`, `focusCctvRecord:45`, `focusCamera:80`, `maybeAutoHop:95`
+- [src/layers/cctv/policy.js](src/layers/cctv/policy.js) — 489 wierszy
+- [src/layers/cctv/presentation.js](src/layers/cctv/presentation.js) — 208 wierszy; deklaracje: `createPresentation:4`, `buildSummaryText:17`, `getPublicCameraState:62`, `uiState:132`, `notifyListeners:178`
+- [src/layers/cctv/projection.js](src/layers/cctv/projection.js) — 385 wierszy; deklaracje: `createProjection:10`, `createCctvProjectionOverlayEntry:24`, `updatePlanePlacement:55`, `clearProjectionOverlay:87`, `setPlaneVisible:102`
+- [src/layers/cctv/rendering.js](src/layers/cctv/rendering.js) — 312 wierszy; deklaracje: `createRendering:14`, `refreshCctvFocusStyles:34`, `applyCctvFocusDeemphasis:74`, `refreshHorizonCulling:137`, `hideCctvRecordVisuals:163`
+- [src/layers/cctv/selection.js](src/layers/cctv/selection.js) — 262 wierszy; deklaracje: `createSelection:7`, `getActiveRecord:23`, `bindCctvWorldClickGesture:46`, `setActiveCamera:64`, `deactivateActiveCamera:160`
+- [src/layers/cctv/source.js](src/layers/cctv/source.js) — 55 wierszy; deklaracje: `safeNumber:6`, `frameUrlFor:10`, `mediaUrlFor:28`, `createCctvSource:32`, `read:35`
+- [src/layers/cctv/source.test.mjs](src/layers/cctv/source.test.mjs) — 150 wierszy
+- [src/layers/cctv/sourcePolicy.js](src/layers/cctv/sourcePolicy.js) — 9 wierszy
+- [src/layers/cctv/state.js](src/layers/cctv/state.js) — 208 wierszy; deklaracje: `createState:3`
+- [src/layers/cctv/testing.js](src/layers/cctv/testing.js) — 120 wierszy; deklaracje: `createTesting:3`, `_pushAmbientCardEntriesForTest:7`, `_setCctvOverlayHostForTest:13`, `_createCctvProjectionPlaneForTest:27`, `_updateCctvProjectionPlaneForTest:62`
+- [src/layers/directions/index.js](src/layers/directions/index.js) — 1432 wierszy; deklaracje: `normalizeDirectionsParams:80`, `directionsRowControls:105`, `pointerBlockedMessage:199`, `stepMarkerIndices:215`, `stepMarkerHeightM:236`
+- [src/layers/earthquakes/index.js](src/layers/earthquakes/index.js) — 233 wierszy; deklaracje: `createEarthquakesLayer:15`
+- [src/layers/earthquakes/model.js](src/layers/earthquakes/model.js) — 102 wierszy; deklaracje: `depthColor:12`, `createEarthquakeOverlayEntry:29`, `selectEarthquakeOverlayCohort:56`, `mapAnalystRecord:85`
+- [src/layers/earthquakes/ownership.test.mjs](src/layers/earthquakes/ownership.test.mjs) — 90 wierszy; deklaracje: `harness:5`
+- [src/layers/earthquakes/records.js](src/layers/earthquakes/records.js) — 49 wierszy; deklaracje: `normalizeEarthquakeSnapshot:2`
+- [src/layers/earthquakes/source.js](src/layers/earthquakes/source.js) — 20 wierszy; deklaracje: `createUsgsEarthquakeSource:5`
+- [src/layers/firms/anchors.js](src/layers/firms/anchors.js) — 98 wierszy; deklaracje: `createFireAnchors:30`, `fireAnchorHeight:34`, `warmFireAnchorFloors:56`, `collectCold:69`, `resolveBatch:81`
+- [src/layers/firms/cards.js](src/layers/firms/cards.js) — 135 wierszy; deklaracje: `createCards:8`, `rebuildAmbientLabels:30`
+- [src/layers/firms/index.js](src/layers/firms/index.js) — 42 wierszy; deklaracje: `createFirmsHelpers:11`, `createFirmsHeatmapLayer:17`
+- [src/layers/firms/ingestion.js](src/layers/firms/ingestion.js) — 111 wierszy; deklaracje: `createIngestion:4`, `loadHeatmap:16`, `findMatchingFire:92`
+- [src/layers/firms/lifecycle.js](src/layers/firms/lifecycle.js) — 119 wierszy; deklaracje: `createLifecycle:4`
+- [src/layers/firms/model.js](src/layers/firms/model.js) — 532 wierszy; deklaracje: `createModel:15`, `mapAnalystRecord:35`, `paddedDegreeBounds:61`, `boundsContainPoint:92`, `cellIntersectsBounds:100`
+- [src/layers/firms/policy.js](src/layers/firms/policy.js) — 97 wierszy
+- [src/layers/firms/queries.js](src/layers/firms/queries.js) — 185 wierszy; deklaracje: `createQueries:4`
+- [src/layers/firms/rendering.js](src/layers/firms/rendering.js) — 355 wierszy; deklaracje: `createRendering:6`, `renderCurrentLod:27`, `aggregateFires:72`, `renderCells:131`, `renderDetections:204`
+- [src/layers/firms/selection.js](src/layers/firms/selection.js) — 254 wierszy; deklaracje: `createSelection:9`, `installClickHandler:33`, `removeClickHandler:69`, `selectAndFocusFire:78`, `pickedFire:96`
+- [src/layers/firms/source.js](src/layers/firms/source.js) — 29 wierszy; deklaracje: `createFirmsSource:2`
+- [src/layers/firms/source.test.mjs](src/layers/firms/source.test.mjs) — 45 wierszy
+- [src/layers/firms/state.js](src/layers/firms/state.js) — 115 wierszy; deklaracje: `createFirmsState:3`
+- [src/layers/firms/viewport.js](src/layers/firms/viewport.js) — 216 wierszy; deklaracje: `createViewport:9`, `installMoveEndWatcher:23`, `removeMoveEndWatcher:38`, `cameraHeight:45`, `rawLodIndex:54`
+- [src/layers/flights/controller.js](src/layers/flights/controller.js) — 26 wierszy; deklaracje: `createController:3`, `_abortActiveUpdates:10`, `_flightQuery:16`
+- [src/layers/flights/enrichment.js](src/layers/flights/enrichment.js) — 240 wierszy; deklaracje: `createEnrichment:13`, `_enqueueEnrich:20`, `_drainEnrich:32`, `_requestTypeEnrichment:78`, `_requestRouteEnrichment:111`
+- [src/layers/flights/evidence.js](src/layers/flights/evidence.js) — 170 wierszy; deklaracje: `createEvidence:5`, `_focusEvidencePosition:14`, `_setFocusEvidenceAircraft:41`, `_moveFocusEvidenceAircraft:111`, `_focusEvidenceSnapshot:138`
+- [src/layers/flights/index.js](src/layers/flights/index.js) — 65 wierszy; deklaracje: `createCivilFlightLayer:14`
+- [src/layers/flights/ingestion.js](src/layers/flights/ingestion.js) — 112 wierszy; deklaracje: `createIngestion:4`, `createFlightFeed:91`
+- [src/layers/flights/ingestion.test.mjs](src/layers/flights/ingestion.test.mjs) — 85 wierszy; deklaracje: `setup:5`
+- [src/layers/flights/lifecycle.js](src/layers/flights/lifecycle.js) — 340 wierszy; deklaracje: `createLifecycle:4`
+- [src/layers/flights/motion.js](src/layers/flights/motion.js) — 1108 wierszy; deklaracje: `createMotion:39`, `_refloorStaleGroundedContacts:83`, `_deadReckon:127`, `_extrapolateFix:265`, `_isTrackWarmingUp:305`
+- [src/layers/flights/ownership.test.mjs](src/layers/flights/ownership.test.mjs) — 126 wierszy; deklaracje: `services:7`
+- [src/layers/flights/policy.js](src/layers/flights/policy.js) — 439 wierszy
+- [src/layers/flights/queries.js](src/layers/flights/queries.js) — 952 wierszy; deklaracje: `createQueries:19`, `_likelyLanded:55`, `_toCleanText:85`, `_contactLabel:106`, `_describeFlight:120`
+- [src/layers/flights/recordPolicy.js](src/layers/flights/recordPolicy.js) — 21 wierszy; deklaracje: `approxDistanceKm:16`
+- [src/layers/flights/records.js](src/layers/flights/records.js) — 283 wierszy; deklaracje: `FlightRecords:16`
+- [src/layers/flights/records.test.mjs](src/layers/flights/records.test.mjs) — 108 wierszy; deklaracje: `records:5`
+- [src/layers/flights/rendering.js](src/layers/flights/rendering.js) — 1216 wierszy; deklaracje: `createRendering:49`, `_fleetBillboardColor:71`, `_fleetBillboardScale:77`, `_groundDepthDistance:96`, `_modelSpec:100`
+- [src/layers/flights/snapshotRenderer.js](src/layers/flights/snapshotRenderer.js) — 313 wierszy; deklaracje: `createFlightSnapshotRenderer:11`
+- [src/layers/flights/state.js](src/layers/flights/state.js) — 447 wierszy; deklaracje: `createFlightState:6`
+- [src/layers/flights/testing.js](src/layers/flights/testing.js) — 216 wierszy; deklaracje: `createTesting:4`, `_floorGroundedDisplayPositionForTest:15`, `_clearDisplayFloorStateForTest:35`, `_setTrackedFlightRefreshStateForTest:56`, `_setFlightTrackingRefreshOutcomeForTest:96`
+- [src/layers/flights/tracking.js](src/layers/flights/tracking.js) — 1265 wierszy; deklaracje: `createTracking:26`, `_emitAwarenessEvent:51`, `_publishTrackedSelection:61`, `_contextSubjectMetadata:90`, `_isExplicitTrackingOrigin:138`
+- [src/layers/installations/controls.js](src/layers/installations/controls.js) — 126 wierszy; deklaracje: `createControls:5`
+- [src/layers/installations/index.js](src/layers/installations/index.js) — 43 wierszy; deklaracje: `createInstallationsLayer:11`
+- [src/layers/installations/ingestion.js](src/layers/installations/ingestion.js) — 208 wierszy; deklaracje: `createIngestion:1`, `setInstallationStatus:20`, `loadInstallations:27`
+- [src/layers/installations/lifecycle.js](src/layers/installations/lifecycle.js) — 62 wierszy; deklaracje: `createLifecycle:4`
+- [src/layers/installations/model.js](src/layers/installations/model.js) — 149 wierszy; deklaracje: `createModel:9`, `approximateSurfaceDistanceM:15`, `colorFor:41`, `classifyGoogleMilitaryPlace:56`, `installationSourceLabel:73`
+- [src/layers/installations/policy.js](src/layers/installations/policy.js) — 21 wierszy
+- [src/layers/installations/rendering.js](src/layers/installations/rendering.js) — 195 wierszy; deklaracje: `createRendering:4`, `installationSurfaceHeightM:26`, `clearRendered:35`, `renderableRecords:54`, `renderRecords:63`
+- [src/layers/installations/selection.js](src/layers/installations/selection.js) — 46 wierszy; deklaracje: `createSelection:5`, `selectRecord:13`, `installInteraction:22`
+- [src/layers/installations/source.js](src/layers/installations/source.js) — 95 wierszy; deklaracje: `installationResponseSaturated:4`, `createInstallationSource:12`
+- [src/layers/installations/source.test.mjs](src/layers/installations/source.test.mjs) — 86 wierszy
+- [src/layers/installations/state.js](src/layers/installations/state.js) — 37 wierszy; deklaracje: `createState:3`
+- [src/layers/installations/viewport.js](src/layers/installations/viewport.js) — 84 wierszy; deklaracje: `createViewport:4`, `viewportBox:5`, `installationRetryDelayMs:30`, `scheduleUnavailableRetry:47`, `clearUnavailableRetry:60`
+- [src/layers/launches/camera.js](src/layers/launches/camera.js) — 375 wierszy; deklaracje: `createCamera:16`, `cameraHeadingForPath:17`, `replayInitialCameraHeading:51`, `replayChaseCameraHeading:65`, `smoothReplayCameraHeading:86`
+- [src/layers/launches/controls.js](src/layers/launches/controls.js) — 35 wierszy; deklaracje: `createControls:1`
+- [src/layers/launches/index.js](src/layers/launches/index.js) — 118 wierszy; deklaracje: `createRocketLaunchesLayer:19`
+- [src/layers/launches/ingestion.js](src/layers/launches/ingestion.js) — 268 wierszy; deklaracje: `createIngestion:3`, `shouldRetryAfterActiveTle:19`, `clearPostTleRetry:33`, `schedulePostTleRetry:38`, `ensureActiveTleLookup:58`
+- [src/layers/launches/launchPad.js](src/layers/launches/launchPad.js) — 158 wierszy; deklaracje: `createLaunchPad:4`, `hideLaunchPadZone:10`, `removeLaunchPadZonePrimitive:15`, `createLaunchPadZonePrimitive:28`, `initLaunchPadZonePrimitive:98`
+- [src/layers/launches/lifecycle.js](src/layers/launches/lifecycle.js) — 175 wierszy; deklaracje: `createLifecycle:4`
+- [src/layers/launches/model.js](src/layers/launches/model.js) — 241 wierszy; deklaracje: `createModel:4`, `finiteCoordinate:5`, `normalizePayloadFlights:10`, `normalizeLanding:40`, `normalizeRecoveryStages:82`
+- [src/layers/launches/orbitRendering.js](src/layers/launches/orbitRendering.js) — 183 wierszy; deklaracje: `createOrbitRendering:7`, `ensureMissionOrbitPatternRegistered:20`, `createMissionOrbitPatternMaterial:57`, `missionOrbitPrimitiveVisible:66`, `syncMissionOrbitPrimitiveVisibility:75`
+- [src/layers/launches/overlays.js](src/layers/launches/overlays.js) — 616 wierszy; deklaracje: `createOverlays:10`, `missionAnchorHorizonVisible:21`, `missionAnchorVisible:59`, `shortMissionLabel:69`, `compactLaunchSiteName:86`
+- [src/layers/launches/panel.js](src/layers/launches/panel.js) — 543 wierszy; deklaracje: `createPanel:7`, `missionHoverPreviewRange:15`, `createMissionRosterPreviewOwnership:34`, `bindMissionRosterItemKeyboardPreview:98`, `captureMissionRosterFocus:121`
+- [src/layers/launches/paths.js](src/layers/launches/paths.js) — 588 wierszy; deklaracje: `createPaths:8`, `orbitInsertionOffsetSeconds:9`, `estimatedOrbitPeriodSeconds:30`, `approximateOrbitPath:40`, `samplePath:149`
+- [src/layers/launches/policy.js](src/layers/launches/policy.js) — 102 wierszy
+- [src/layers/launches/policyHelpers.js](src/layers/launches/policyHelpers.js) — 256 wierszy; deklaracje: `createPolicyHelpers:8`, `satelliteParamsForSpaceMissions:20`, `satelliteParamsAfterSpaceMissions:36`, `launchStatusAllowsOrbit:50`, `missionPathPresentation:65`
+- [src/layers/launches/rendering.js](src/layers/launches/rendering.js) — 573 wierszy; deklaracje: `createRendering:9`, `setGraphicVisibility:18`, `updateMissionFrame:25`, `addLaunchEntity:74`
+- [src/layers/launches/replay.js](src/layers/launches/replay.js) — 557 wierszy; deklaracje: `createReplay:16`, `replayVehicleScreenRotation:24`, `smoothReplayWindowPosition:46`, `replayAscentDurationSeconds:72`, `normalizeReplaySpeed:99`
+- [src/layers/launches/selection.js](src/layers/launches/selection.js) — 239 wierszy; deklaracje: `createSelection:4`, `focusFullGlobe:12`, `entityLaunchId:51`, `setSelectedMission:57`, `stopMissionZoomAnchor:88`
+- [src/layers/launches/source.js](src/layers/launches/source.js) — 25 wierszy; deklaracje: `createLaunchSource:2`
+- [src/layers/launches/source.test.mjs](src/layers/launches/source.test.mjs) — 53 wierszy
+- [src/layers/launches/state.js](src/layers/launches/state.js) — 138 wierszy; deklaracje: `createState:3`
+- [src/layers/launches/testing.js](src/layers/launches/testing.js) — 19 wierszy; deklaracje: `createTesting:1`, `_setRocketMissionOverlayHostForTest:4`, `_setSelectedRocketMissionForTest:12`
+- [src/layers/military/controller.js](src/layers/military/controller.js) — 14 wierszy; deklaracje: `createController:1`, `_abortActiveUpdates:8`
+- [src/layers/military/index.js](src/layers/military/index.js) — 57 wierszy; deklaracje: `createMilitaryFlightLayer:12`
+- [src/layers/military/ingestion.js](src/layers/military/ingestion.js) — 102 wierszy; deklaracje: `createIngestion:4`, `createMilitaryFeed:83`
+- [src/layers/military/ingestion.test.mjs](src/layers/military/ingestion.test.mjs) — 68 wierszy; deklaracje: `setup:4`
+- [src/layers/military/lifecycle.js](src/layers/military/lifecycle.js) — 304 wierszy; deklaracje: `createLifecycle:4`
+- [src/layers/military/motion.js](src/layers/military/motion.js) — 528 wierszy; deklaracje: `createMotion:28`, `_deadReckon:56`, `_extrapolateFix:173`, `_isTrackWarmingUp:211`, `_trackedFocusSizePx:225`
+- [src/layers/military/ownership.test.mjs](src/layers/military/ownership.test.mjs) — 115 wierszy; deklaracje: `services:6`
+- [src/layers/military/policy.js](src/layers/military/policy.js) — 274 wierszy
+- [src/layers/military/queries.js](src/layers/military/queries.js) — 823 wierszy; deklaracje: `createQueries:13`, `_toFiniteNumber:31`, `_toCleanText:46`, `_formatAltitude:56`, `_likelyLanded:69`
+- [src/layers/military/recordPolicy.js](src/layers/military/recordPolicy.js) — 9 wierszy
+- [src/layers/military/records.js](src/layers/military/records.js) — 201 wierszy; deklaracje: `MilitaryFlightRecords:11`
+- [src/layers/military/records.test.mjs](src/layers/military/records.test.mjs) — 100 wierszy
+- [src/layers/military/rendering.js](src/layers/military/rendering.js) — 1118 wierszy; deklaracje: `createRendering:53`, `_groundDepthDistance:76`, `_modelSpec:80`, `_normalBillboardScaleByDistance:125`, `_cockpitBillboardScaleByDistance:131`
+- [src/layers/military/snapshotRenderer.js](src/layers/military/snapshotRenderer.js) — 295 wierszy; deklaracje: `createMilitarySnapshotRenderer:18`
+- [src/layers/military/state.js](src/layers/military/state.js) — 353 wierszy; deklaracje: `createFlightState:5`
+- [src/layers/military/testing.js](src/layers/military/testing.js) — 166 wierszy; deklaracje: `createTesting:3`, `_setTrackedMilitaryRefreshStateForTest:27`, `_setMilitaryTrackingRefreshOutcomeForTest:67`, `_addMilitaryTrackingCandidateForTest:83`, `_pendingMilitaryTrackingRestoreForTest:96`
+- [src/layers/military/tracking.js](src/layers/military/tracking.js) — 1174 wierszy; deklaracje: `createTracking:29`, `_emitAwarenessEvent:52`, `_publishTrackedSelection:62`, `_contextSubjectMetadata:90`, `_isExplicitTrackingOrigin:133`
+- [src/layers/radio/catalogModel.js](src/layers/radio/catalogModel.js) — 147 wierszy; deklaracje: `createCatalogModel:4`, `isNonGlobalRadioIpv4:10`, `isSafeRadioHttpsUrl:34`, `isValidRadioDirectoryStation:61`, `freezeRadioStation:104`
+- [src/layers/radio/categories.js](src/layers/radio/categories.js) — 131 wierszy; deklaracje: `createCategories:3`, `normalizeRadioTag:11`, `stationTags:20`, `hasTag:29`, `detectedGenres:36`
+- [src/layers/radio/clustering.js](src/layers/radio/clustering.js) — 266 wierszy; deklaracje: `createClustering:9`, `radioSingletonLabelLimit:17`, `selectRadioSingletonCandidates:26`, `selectRadioClusterCandidates:47`, `reconcileRadioClusterCandidates:70`
+- [src/layers/radio/controls.js](src/layers/radio/controls.js) — 119 wierszy; deklaracje: `createControls:1`
+- [src/layers/radio/index.js](src/layers/radio/index.js) — 142 wierszy; deklaracje: `createRadioLayer:22`
+- [src/layers/radio/ingestion.js](src/layers/radio/ingestion.js) — 174 wierszy; deklaracje: `createIngestion:6`
+- [src/layers/radio/interaction.js](src/layers/radio/interaction.js) — 162 wierszy; deklaracje: `createInteraction:10`, `radioStationIdFromPick:26`, `pickedRadioStationAt:49`, `radioPresentationAllowed:87`, `syncRadioLifecyclePresentation:97`
+- [src/layers/radio/labels.js](src/layers/radio/labels.js) — 215 wierszy; deklaracje: `createLabels:8`, `compactRadioLabelText:9`, `cleanRadioLabelName:25`, `radioGlobeLabel:36`, `createRadioSelectedOverlayEntry:81`
+- [src/layers/radio/lifecycle.js](src/layers/radio/lifecycle.js) — 122 wierszy; deklaracje: `createLifecycle:9`
+- [src/layers/radio/model.js](src/layers/radio/model.js) — 131 wierszy; deklaracje: `createModel:7`, `radioCategoryColor:10`, `radioClusterBadgeText:18`, `radioClusterCategoryId:28`, `radioStationCategoryId:61`
+- [src/layers/radio/navigation.js](src/layers/radio/navigation.js) — 395 wierszy; deklaracje: `createNavigation:8`, `radioCameraPositionChanged:24`, `radioViewIsGlobal:40`, `radioStationCameraPlan:49`, `radioGlobeNeedsRecentering:105`
+- [src/layers/radio/playback.js](src/layers/radio/playback.js) — 382 wierszy; deklaracje: `createPlayback:3`, `audioEventBelongsToActiveAttempt:4`, `installAudio:14`, `tryRadioFallback:84`, `recordDirectoryClick:126`
+- [src/layers/radio/policy.js](src/layers/radio/policy.js) — 170 wierszy
+- [src/layers/radio/presentation.js](src/layers/radio/presentation.js) — 105 wierszy; deklaracje: `createPresentation:1`, `getRadioAcceptedCatalogSnapshot:9`, `getRadioUIState:15`, `emitState:55`, `subscribeToRadio:68`
+- [src/layers/radio/queries.js](src/layers/radio/queries.js) — 152 wierszy; deklaracje: `createQueries:4`, `radioAngularDistance:5`, `rankRadioStationsForViewport:22`, `rankRadioStationsForRequest:48`, `selectedStation:89`
+- [src/layers/radio/rendering.js](src/layers/radio/rendering.js) — 411 wierszy; deklaracje: `createRendering:14`, `markerPosition:25`, `updateSelectionEntity:34`, `clusterPointCollection:83`, `publishRadioOverlayEntries:87`
+- [src/layers/radio/selection.js](src/layers/radio/selection.js) — 269 wierszy; deklaracje: `createSelection:4`, `setRadioParams:14`, `getRadioParams:72`, `selectRadioStation:78`, `cycleRadioStation:130`
+- [src/layers/radio/source.js](src/layers/radio/source.js) — 33 wierszy; deklaracje: `createRadioSource:4`
+- [src/layers/radio/source.test.mjs](src/layers/radio/source.test.mjs) — 108 wierszy
+- [src/layers/radio/state.js](src/layers/radio/state.js) — 157 wierszy; deklaracje: `createState:8`
+- [src/layers/radio/tuning.js](src/layers/radio/tuning.js) — 233 wierszy; deklaracje: `createTuning:7`, `buildRadioTunerBand:10`, `captureRadioTuningResolutionSnapshot:25`, `getRadioTunerStations:31`, `beginRadioTuning:46`
+- [src/layers/radio/tuningNoise.js](src/layers/radio/tuningNoise.js) — 145 wierszy; deklaracje: `createTuningNoise:6`, `radioTuningStaticShouldPlay:14`, `stopTuningNoiseSource:25`, `syncTuningNoiseGain:53`, `installTuningNoise:76`
+- [src/layers/radio/volume.js](src/layers/radio/volume.js) — 148 wierszy; deklaracje: `createVolume:3`, `clampRadioVolume:4`, `cancelRadioVolumeTransition:8`, `scheduleVolumeFrame:21`, `volumeClock:27`
+- [src/layers/satellites/catalog.js](src/layers/satellites/catalog.js) — 239 wierszy; deklaracje: `createCatalog:10`, `_abortActiveUpdates:11`, `_propagateDenseChunk:28`, `_loadDenseCatalog:60`, `_denseLoadFailed:198`
+- [src/layers/satellites/controls.js](src/layers/satellites/controls.js) — 562 wierszy; deklaracje: `createControls:9`, `_pointStyleFor:19`, `_notifyRowControls:26`, `_classTally:41`, `satelliteVisualsVisible:72`
+- [src/layers/satellites/index.js](src/layers/satellites/index.js) — 73 wierszy; deklaracje: `createSatellitesLayer:14`
+- [src/layers/satellites/ingestion.js](src/layers/satellites/ingestion.js) — 193 wierszy; deklaracje: `createIngestion:5`
+- [src/layers/satellites/interaction.js](src/layers/satellites/interaction.js) — 89 wierszy; deklaracje: `createInteraction:4`, `_onKeyDown:12`, `_installClickHandler:19`
+- [src/layers/satellites/labels.js](src/layers/satellites/labels.js) — 125 wierszy; deklaracje: `createLabels:9`, `createIssOverlayEntry:12`, `_issDisplayCached:40`, `_refreshDockedCompanions:49`, `_dockedCompanionNames:83`
+- [src/layers/satellites/lifecycle.js](src/layers/satellites/lifecycle.js) — 179 wierszy; deklaracje: `createLifecycle:4`
+- [src/layers/satellites/orbits.js](src/layers/satellites/orbits.js) — 327 wierszy; deklaracje: `createOrbits:13`, `orbitFrameModelMatrix:23`, `parseTLE:44`, `propagatePosition:68`, `orbitalPeriodSeconds:94`
+- [src/layers/satellites/policy.js](src/layers/satellites/policy.js) — 182 wierszy
+- [src/layers/satellites/rendering.js](src/layers/satellites/rendering.js) — 320 wierszy; deklaracje: `createRendering:5`, `_showOrbitPath:39`, `_updateOrbitPathRotations:113`, `_hideOrbitPath:130`, `_propagateAll:145`
+- [src/layers/satellites/source.js](src/layers/satellites/source.js) — 25 wierszy; deklaracje: `createSatelliteSource:12`
+- [src/layers/satellites/source.test.mjs](src/layers/satellites/source.test.mjs) — 58 wierszy
+- [src/layers/satellites/state.js](src/layers/satellites/state.js) — 165 wierszy; deklaracje: `createState:3`
+- [src/layers/satellites/testing.js](src/layers/satellites/testing.js) — 251 wierszy; deklaracje: `createTesting:4`, `_setTrackedSatelliteRefreshStateForTest:18`, `_setSatelliteTrackingRefreshOutcomeForTest:60`, `_trackedFrameCartesianForTest:80`, `_runSatellitePreRenderForTest:86`
+- [src/layers/satellites/tracking.js](src/layers/satellites/tracking.js) — 479 wierszy; deklaracje: `createTracking:11`, `_normalizeTrackedNorad:22`, `_emitAwarenessEvent:29`, `_applyPendingTrackingRestore:39`, `_cancelPendingTrackingRestore:58`
+- [src/layers/submarineCables/bundledSource.js](src/layers/submarineCables/bundledSource.js) — 42 wierszy; deklaracje: `createBundledCableSource:14`, `read:17`
+- [src/layers/submarineCables/bundledSource.test.mjs](src/layers/submarineCables/bundledSource.test.mjs) — 34 wierszy
+- [src/layers/submarineCables/geometry.js](src/layers/submarineCables/geometry.js) — 79 wierszy; deklaracje: `featureReference:1`, `coordsFromProperty:36`, `coordsFromPoint:44`, `collectLonLat:52`, `featureLabel:65`
+- [src/layers/submarineCables/index.js](src/layers/submarineCables/index.js) — 53 wierszy; deklaracje: `createSubmarineCableLayer:7`
+- [src/layers/submarineCables/ingestion.js](src/layers/submarineCables/ingestion.js) — 210 wierszy; deklaracje: `createIngestion:8`, `load:9`
+- [src/layers/submarineCables/interaction.js](src/layers/submarineCables/interaction.js) — 78 wierszy; deklaracje: `createInteraction:4`, `registerPickEntity:5`, `beginInteraction:10`, `resolvePickRecord:24`, `flyToReference:53`
+- [src/layers/submarineCables/lifecycle.js](src/layers/submarineCables/lifecycle.js) — 156 wierszy; deklaracje: `createLifecycle:6`
+- [src/layers/submarineCables/overlay.js](src/layers/submarineCables/overlay.js) — 309 wierszy; deklaracje: `selectCableReferenceLabelWinners:24`, `cableReferencePriority:57`, `createCableOverlayEntry:75`, `createCableOverlayPublisher:120`, `createCableReferenceSweepGate:188`
+- [src/layers/submarineCables/policy.js](src/layers/submarineCables/policy.js) — 109 wierszy; deklaracje: `defaultSweepClock:104`
+- [src/layers/submarineCables/rendering.js](src/layers/submarineCables/rendering.js) — 274 wierszy; deklaracje: `createRendering:14`, `resetPublishSignature:15`, `releaseDataSources:32`, `updateVisibility:61`, `styleCableEntity:69`
+- [src/layers/submarineCables/state.js](src/layers/submarineCables/state.js) — 107 wierszy; deklaracje: `createState:8`
+- [src/layers/submarineCables/surface.js](src/layers/submarineCables/surface.js) — 126 wierszy; deklaracje: `cableClassificationTypeForStack:21`, `cableClassificationTypeForScene:37`, `probeTranslucentMarkerBlend:53`, `commitTranslucentMarkerBlend:87`, `applyTranslucentMarkerBlend:121`
+- [src/layers/traffic/animation.js](src/layers/traffic/animation.js) — 314 wierszy; deklaracje: `createAnimation:17`, `spawnDotsForRoad:37`, `animate:202`, `maybeStopLight:292`, `clearDots:304`
+- [src/layers/traffic/controls.js](src/layers/traffic/controls.js) — 189 wierszy; deklaracje: `createControls:7`
+- [src/layers/traffic/flow.js](src/layers/traffic/flow.js) — 215 wierszy; deklaracje: `createFlow:4`, `deriveTrafficFlowError:22`, `ensureFlowStatus:42`, `applyFlowToRoads:85`, `applyFlowThenRender:151`
+- [src/layers/traffic/flowDecode.js](src/layers/traffic/flowDecode.js) — 70 wierszy; deklaracje: `decodeFlowTile:26`
+- [src/layers/traffic/flowSource.js](src/layers/traffic/flowSource.js) — 97 wierszy; deklaracje: `createFlowTileSource:4`, `cacheSet:20`, `fetchFlowForBounds:47`, `getFlowSessionStats:87`, `resetFlowTileCache:92`
+- [src/layers/traffic/index.js](src/layers/traffic/index.js) — 63 wierszy; deklaracje: `createTrafficLayer:15`
+- [src/layers/traffic/ingestion.js](src/layers/traffic/ingestion.js) — 353 wierszy; deklaracje: `createIngestion:8`, `fetchRoads:36`, `cancelActiveFetch:127`, `loadRoadsForBounds:156`
+- [src/layers/traffic/lifecycle.js](src/layers/traffic/lifecycle.js) — 197 wierszy; deklaracje: `createLifecycle:8`
+- [src/layers/traffic/model.js](src/layers/traffic/model.js) — 369 wierszy; deklaracje: `createModel:15`, `parseRoads:17`, `estimateRoadLengthDeg:95`, `computeDotCount:120`, `allocateRoadDotBudgets:167`
+- [src/layers/traffic/navigation.test.mjs](src/layers/traffic/navigation.test.mjs) — 218 wierszy; deklaracje: `deferred:6`, `setup:14`, `roads:81`
+- [src/layers/traffic/policy.js](src/layers/traffic/policy.js) — 215 wierszy
+- [src/layers/traffic/rendering.js](src/layers/traffic/rendering.js) — 318 wierszy; deklaracje: `createRendering:15`, `visibleRoadsForAltitude:29`, `removeHeatLines:40`, `rebuildHeatLines:68`, `renderRoadsForAltitude:175`
+- [src/layers/traffic/source.js](src/layers/traffic/source.js) — 80 wierszy; deklaracje: `buildOverpassQuery:4`, `createTrafficSource:19`
+- [src/layers/traffic/source.test.mjs](src/layers/traffic/source.test.mjs) — 167 wierszy
+- [src/layers/traffic/state.js](src/layers/traffic/state.js) — 280 wierszy; deklaracje: `createState:4`
+- [src/layers/traffic/style.js](src/layers/traffic/style.js) — 156 wierszy; deklaracje: `createStyle:14`, `presetProfileActive:17`, `activeSizeDelta:31`, `baseDotSize:45`, `refreshBucketColors:54`
+- [src/layers/traffic/timing.js](src/layers/traffic/timing.js) — 470 wierszy; deklaracje: `createTiming:8`, `getTrafficTimingDiagnostics:16`, `trafficTimingPass:37`, `trafficTimingDetail:57`, `trafficTimingMark:76`
+- [src/layers/traffic/viewport.js](src/layers/traffic/viewport.js) — 249 wierszy; deklaracje: `createViewport:15`, `getCameraAltitude:23`, `getViewBounds:34`, `getFetchCenter:59`, `getBoundsCenter:97`
+- [src/layers/transit/controls.js](src/layers/transit/controls.js) — 18 wierszy; deklaracje: `createControls:8`
+- [src/layers/transit/height.js](src/layers/transit/height.js) — 257 wierszy; deklaracje: `createHeight:12`, `viewerSubpoint:26`, `cameraAltitude:35`, `nearGround:46`, `requestHeight:57`
