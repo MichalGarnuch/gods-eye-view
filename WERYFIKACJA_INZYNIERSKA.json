@@ -1,0 +1,23 @@
+{
+  "repository": "gods-eye-view",
+  "branch": "wersja-inzynierska-2026",
+  "base_ref": "main",
+  "base_commit": "a65d9d85f1faa06ae7df235d7fa8a29b026b7a5b",
+  "date": "2026-10-29",
+  "checks": [
+    {
+      "command_or_scope": "npm test na Node 24.22.1",
+      "result": "PASS: 4151 zaliczonych, 1 pominięty; sondy alokacji wykonane"
+    },
+    {
+      "command_or_scope": "npm run check:boundaries",
+      "result": "PASS"
+    },
+    {
+      "command_or_scope": "npm run build",
+      "result": "PASS; ostrzeżenia rozmiarów pakietów"
+    }
+  ],
+  "limitations": "Nie wykonano interaktywnych QA mapy ani testów z żywymi zewnętrznymi feedami. Pojedynczy pominięty test istnieje w zwykłej baterii; nie oznacza pominięcia obu sond alokacji.",
+  "production_deployment_performed": false
+}

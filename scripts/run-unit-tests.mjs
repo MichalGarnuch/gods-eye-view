@@ -1,3 +1,4 @@
+import { availableParallelism } from 'node:os';
 import { readdirSync } from 'node:fs';
 import { spawnSync } from 'node:child_process';
 import path from 'node:path';
@@ -60,6 +61,15 @@ export function allocationTestArgs(file) {
   return ['--expose-gc', '--test', '--test-concurrency=1', file];
 }
 
+/** Keep CI memory use bounded; invalid overrides fail before spawning workers. */
+export function unitTestConcurrency(value = process.env.GEV_TEST_CONCURRENCY, cpus = availableParallelism()) {
+  if (value === undefined) return Math.max(1, Math.min(4, cpus));
+  if (!/^[1-9][0-9]*$/.test(value) || Number(value) > 32) {
+    throw new RangeError('GEV_TEST_CONCURRENCY must be an integer from 1 to 32');
+  }
+  return Number(value);
+}
+
 function runTests(args) {
   const result = spawnSync(process.execPath, args, {
     cwd: process.cwd(),
@@ -72,7 +82,7 @@ function runTests(args) {
 
 export function runUnitTests() {
   const plan = buildUnitTestPlan(discoverUnitTestFiles());
-  const parallelStatus = runTests(['--test', ...plan.parallel]);
+  const parallelStatus = runTests(['--test', `--test-concurrency=${unitTestConcurrency()}`, ...plan.parallel]);
   if (parallelStatus !== 0) return parallelStatus;
 
   // The GC-bracketed budgets are calibrated on Node 24 and are meaningless on
